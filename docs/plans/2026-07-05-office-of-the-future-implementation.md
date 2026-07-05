@@ -33,7 +33,7 @@ __pycache__/
 ```markdown
 # The Office of 2035 — The Listening Cave
 
-A consulting thought-leadership project in two parts:
+A consulting thought-leadership project in three parts:
 
 - **`site/`** — an interactive 360° website where visitors explore the office
   of 2035 (guided tour or free roam, EN/DE). Pure static site, no build step.
