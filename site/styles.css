@@ -172,8 +172,8 @@ button {
 
 #landing > .lang {
   position: absolute;
-  top: 1.1rem;
-  right: 1.2rem;
+  top: max(1.1rem, env(safe-area-inset-top));
+  right: max(1.2rem, env(safe-area-inset-right));
   z-index: 2;
 }
 
@@ -398,9 +398,7 @@ button {
   animation: pulse 3s ease-in-out infinite;
 }
 
-/* beat Pannellum's .pnlm-hotspot:hover white wash */
 .hotspot-ember:hover {
-  background-color: transparent;
   box-shadow: 0 0 20px 7px rgba(217, 142, 74, 0.75);
 }
 
