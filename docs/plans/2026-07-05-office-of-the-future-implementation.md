@@ -148,7 +148,8 @@ for name, (top, bottom) in SCENES.items():
         d.text(((W * i / 4 + W / 8) - tw / 2, H // 2 - 140), label,
                font=f, fill=(255, 245, 230))
     img.save(f"site/panos/{name}.jpg", quality=80)
-    img.resize((512, 256)).save(f"site/panos/{name}-preview.jpg", quality=60)
+    img.resize((512, 256), resample=Image.LANCZOS).save(
+        f"site/panos/{name}-preview.jpg", quality=60)
     print(f"site/panos/{name}.jpg")
 ```
 
@@ -402,8 +403,13 @@ Also include a short workflow section: generate at highest available resolution 
 **Step 2: Amend `tools/make_placeholders.py` with `--previews-only`**
 
 ```python
-import sys
-PREVIEWS_ONLY = "--previews-only" in sys.argv
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--previews-only", action="store_true")
+PREVIEWS_ONLY = parser.parse_args().previews_only  # unknown args exit nonzero
+# before the loop: if PREVIEWS_ONLY, check every site/panos/<id>.jpg exists;
+#   exit(1) with "site/panos/<id>.jpg missing — generate it or run without
+#   --previews-only" for any that are absent
 # in the loop:
 #   if PREVIEWS_ONLY: img = Image.open(f"site/panos/{name}.jpg")
 #   else: (existing generation code)

@@ -5,6 +5,10 @@ Each scene below has a recommended style preset, a main prompt, and a negative
 prompt. Generate, review against the design principles, iterate, then integrate
 (workflow at the bottom).
 
+> **Length rule:** main prompts must stay under ~600 characters (Skybox AI's
+> input limit); negative prompts are ordered most-critical-first so truncation
+> loses the least important terms.
+
 ---
 
 ## Shared visual language
@@ -40,15 +44,14 @@ office cubicles, text, writing, signage, logos, watermark.
 
 **Main prompt:**
 
-> Outdoor guest commons in front of a low curved earthen office building,
-> year 2035, seen from standing eye height on a winding path of warm flat
-> stone. The path curves through a lush conversation garden: low round stone
-> tables, planted alcoves with cushioned wooden benches, tall grasses, moss,
-> a few mature trees. Ahead, the building's rammed-earth facade curves gently,
-> with a wide doorway standing open and warm amber light glowing from inside —
-> no door hardware, no badge reader, no reception visible. Soft morning
-> sunlight, long gentle shadows, dew on leaves, open sky with light clouds.
-> Photorealistic, warm, welcoming, serene.
+> Outdoor guest commons before a low curved earthen office building, year
+> 2035, from standing eye height on a winding path of warm flat stone through
+> a lush garden: low round stone tables, planted alcoves with cushioned wooden
+> benches, tall grasses, moss, mature trees. Ahead the rammed-earth facade
+> curves gently, a wide doorway standing open with warm amber light glowing
+> inside — no door hardware, no badge reader, no reception. Soft morning
+> sunlight, long shadows, dew on leaves, open sky with light clouds.
+> Photorealistic, warm, welcoming.
 
 **Negative prompt:**
 
@@ -67,14 +70,13 @@ office cubicles, text, writing, signage, logos, watermark.
 **Main prompt:**
 
 > Wide round arrival commons inside an earthen office building, year 2035,
-> from standing eye height at the room's edge. At the center, a low circular
-> hearth radiates real fire-colored light — glowing embers in a shallow clay
-> basin, no fence, no fountain. Curved hand-plastered clay walls fold around
-> the space; warm wood floor, wool rugs, low cushioned benches arranged loosely
-> toward the fire. To one side, an open kitchen alcove with a wooden counter,
-> fresh bread, ceramic cups, a copper kettle. Daylight falls in soft shafts
-> from a round skylight; everything else is lit by firelight and hidden warm
-> indirect light. Photorealistic, intimate, quiet, welcoming.
+> from standing eye height at the room's edge. At the center a low circular
+> hearth: glowing embers in a shallow clay basin, no fence, no fountain.
+> Curved hand-plastered clay walls, warm wood floor, wool rugs, low cushioned
+> benches facing the fire. To one side an open kitchen alcove with a wooden
+> counter, fresh bread, ceramic cups, a copper kettle. Daylight falls in soft
+> shafts from a round skylight; the rest lit by firelight and hidden warm
+> indirect light. Photorealistic, intimate, welcoming.
 
 **Negative prompt:**
 
@@ -92,15 +94,14 @@ office cubicles, text, writing, signage, logos, watermark.
 
 **Main prompt:**
 
-> Co-creation room in an earthen office building, year 2035, from standing eye
-> height at the room's center. The room is dominated by one long, gently
-> curved wall with the texture of painted clay, covered in matte ochre and
-> umber sketch strokes — abstract diagrams, flowing hand-drawn lines, faint
-> older layers of drawing showing through beneath the newest marks, like cave
-> paintings layered over centuries. The pigment is matte and mineral, with no
-> glow and no glass. A shaft of daylight from a slot skylight rakes across the
-> wall, revealing its texture. Warm wood floor, a few low wooden stools, small
-> clay pots of pigment on a ledge. Photorealistic, contemplative, tactile.
+> Co-creation room in an earthen office building, year 2035, from standing
+> eye height at the center. One long gently curved painted-clay wall covered
+> in matte ochre and umber mineral-pigment sketch strokes — abstract diagrams,
+> hand-drawn lines, faint older layers of drawing showing through beneath the
+> newest marks, like cave paintings layered over centuries. No glow, no glass.
+> A daylight shaft from a slot skylight rakes across the wall, revealing its
+> texture. Warm wood floor, low wooden stools, small clay pots of pigment on
+> a ledge. Photorealistic, contemplative, tactile.
 
 **Negative prompt:**
 
@@ -119,15 +120,14 @@ office cubicles, text, writing, signage, logos, watermark.
 
 **Main prompt:**
 
-> Tiny womb-like alcove for solo deep work inside an earthen building, year
-> 2035, from seated-to-standing eye height inside the niche. The space is
-> barely wider than outstretched arms: a curved clay wall wraps behind a low
-> bench draped in thick lambswool, a heavy felt curtain half-drawn across the
-> low rounded entrance. On the bench lies a single matte sheet of e-paper,
-> pale as a printed page, unlit. The room is dim and warm — one soft pool of
-> candle-warm light from a hidden source above the bench, deep soft shadows
-> everywhere else, wool and felt textures absorbing all sound. Photorealistic,
-> enclosed, safe, profoundly quiet.
+> Tiny womb-like alcove for solo deep work in an earthen building, year 2035,
+> from seated eye height inside the niche, barely wider than outstretched
+> arms. A curved clay wall wraps behind a low bench draped in thick lambswool;
+> a heavy felt curtain half-drawn across the low rounded entrance. On the
+> bench a single matte sheet of e-paper, pale as a printed page, unlit. Dim
+> and warm: one soft pool of candle-warm light from a hidden source above the
+> bench, deep soft shadows elsewhere, wool and felt absorbing all sound.
+> Photorealistic, enclosed, profoundly quiet.
 
 **Negative prompt:**
 
@@ -146,16 +146,14 @@ office cubicles, text, writing, signage, logos, watermark.
 
 **Main prompt:**
 
-> The deepest room of an earthen office building, year 2035, from standing eye
-> height beside its centerpiece: a long waist-high workbench surface whose top
-> is a living relief — a landscape of ridges, valleys, and one distinct dent,
-> physically sculpted from thousands of fine matte cells, as if data had been
-> woven into terrain. The relief is lit from within by faint warm amber
-> gradients, like embers under cloth, never glowing like a screen. Around it,
-> curved clay walls hung with large woven textiles — threads, warp and weft,
-> echoes of a Jacquard loom. Warm wood floor, low indirect fire-toned light,
-> one shaft of daylight from above. Photorealistic, tactile, focused,
-> workshop-like.
+> Deepest room of an earthen office building, year 2035, from standing eye
+> height beside a long waist-high workbench whose top is a living relief —
+> ridges, valleys, and one distinct dent, sculpted from thousands of fine
+> matte cells, as if data had been woven into terrain. Lit from within by
+> faint warm amber gradients, like embers under cloth, never glowing like a
+> screen. Curved clay walls hung with large woven Jacquard textiles, warp and
+> weft. Warm wood floor, low fire-toned indirect light, one daylight shaft
+> from above. Photorealistic, tactile, workshop-like.
 
 **Negative prompt:**
 
@@ -187,4 +185,7 @@ office cubicles, text, writing, signage, logos, watermark.
    (`python3 -m http.server 8080 --directory site`) and adjust that scene's
    hotspot `pitch`/`yaw` values in `site/content.json` so each ember sits on
    the object its card describes.
-6. **Commit** per scene: `feat: real panorama for <id>`.
+6. **Re-validate the content:** `python3 -m json.tool site/content.json`
+   (syntax) plus the completeness check from plan Task 4 Step 3, which must
+   still print `content OK, 19 hotspots`.
+7. **Commit** per scene: `feat: real panorama for <id>`.
