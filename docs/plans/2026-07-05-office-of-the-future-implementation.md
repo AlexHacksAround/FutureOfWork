@@ -431,6 +431,8 @@ git commit -m "feat: vision essay (EN)"
 
 DE translation is a separate commit after review: `feat: vision essay (DE)`.
 
+**Also in the DE polish pass (carried from Task 4 review, content.json):** confirm with partner the generic feminine forms ("einer Kollegin", "eine Moderatorin"); consider "die Ihre Hände durchwandern können" for the loom narration ("abschreiten"); conscious sign-off on the two borderline personifications ("wie ein guter Lehrling", den's "Eine Stimme liest…" → safer: "Der Raum liest…").
+
 ---
 
 ### Task 9: Real panoramas integration (partner-gated)
