@@ -15,6 +15,7 @@ Usage:
 """
 
 import argparse
+import http.client
 import json
 import os
 import sys
@@ -87,6 +88,10 @@ def synthesize(api_key, text, out_path):
         return False
     except urllib.error.URLError as e:
         print(f"  ERROR: request failed for {out_path}: {e.reason}", file=sys.stderr)
+        return False
+    except (OSError, http.client.HTTPException) as e:
+        # timeouts / dropped connections while reading the response body
+        print(f"  ERROR: transfer failed for {out_path}: {e!r}", file=sys.stderr)
         return False
 
     with open(out_path, "wb") as f:
