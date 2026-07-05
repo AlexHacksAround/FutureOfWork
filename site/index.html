@@ -43,10 +43,15 @@
       <button id="menu-toggle" data-ui="scenes"></button>
       <span id="scene-label"></span>
       <button id="next-scene" data-ui="continue"></button>
+      <button id="sound-toggle" aria-pressed="true"></button>
       <button id="lang-toggle-hud" class="lang"></button>
     </nav>
 
-    <div id="menu" hidden><ul id="menu-list"></ul></div>
+    <div id="menu" hidden>
+      <p id="menu-outro" hidden
+         style="margin:0 0 1.4rem; padding:0 2rem; max-width:34rem; text-align:center; font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:1.05rem; line-height:1.65; color:#b9a98f;"></p>
+      <ul id="menu-list"></ul>
+    </div>
   </section>
 
   <script src="vendor/pannellum.js"></script>

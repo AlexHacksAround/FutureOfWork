@@ -38,6 +38,14 @@
       "en": "Scenes",
       "de": "Räume"
     },
+    "soundOn": {
+      "en": "Sound on",
+      "de": "Ton an"
+    },
+    "soundOff": {
+      "en": "Sound off",
+      "de": "Ton aus"
+    },
     "outro": {
       "en": "The tour ends here, but the rooms stay open. Wander wherever you like — the walls are listening.",
       "de": "Die Führung endet hier, doch die Räume bleiben offen. Gehen Sie, wohin Sie möchten — die Wände hören zu."
@@ -48,6 +56,12 @@
       "id": "approach",
       "pano": "panos/approach.jpg",
       "preview": "panos/approach-preview.jpg",
+      "audio": {
+        "narration": {
+          "en": "audio/approach-en.mp3",
+          "de": "audio/approach-de.mp3"
+        }
+      },
       "name": {
         "en": "The Approach",
         "de": "Die Ankunft"
@@ -99,6 +113,12 @@
       "id": "hearth",
       "pano": "panos/hearth.jpg",
       "preview": "panos/hearth-preview.jpg",
+      "audio": {
+        "narration": {
+          "en": "audio/hearth-en.mp3",
+          "de": "audio/hearth-de.mp3"
+        }
+      },
       "name": {
         "en": "The Hearth",
         "de": "Die Feuerstelle"
@@ -162,6 +182,12 @@
       "id": "painted-wall",
       "pano": "panos/painted-wall.jpg",
       "preview": "panos/painted-wall-preview.jpg",
+      "audio": {
+        "narration": {
+          "en": "audio/painted-wall-en.mp3",
+          "de": "audio/painted-wall-de.mp3"
+        }
+      },
       "name": {
         "en": "The Painted Wall",
         "de": "Die bemalte Wand"
@@ -225,6 +251,12 @@
       "id": "den",
       "pano": "panos/den.jpg",
       "preview": "panos/den-preview.jpg",
+      "audio": {
+        "narration": {
+          "en": "audio/den-en.mp3",
+          "de": "audio/den-de.mp3"
+        }
+      },
       "name": {
         "en": "The Den",
         "de": "Die Klause"
@@ -276,6 +308,12 @@
       "id": "loom",
       "pano": "panos/loom.jpg",
       "preview": "panos/loom-preview.jpg",
+      "audio": {
+        "narration": {
+          "en": "audio/loom-en.mp3",
+          "de": "audio/loom-de.mp3"
+        }
+      },
       "name": {
         "en": "The Loom",
         "de": "Der Webstuhl"
