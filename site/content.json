@@ -20,7 +20,7 @@
     },
     "lookAround": {
       "en": "Look around",
-      "de": "Sehen Sie sich um"
+      "de": "Umsehen"
     },
     "continue": {
       "en": "Continue",
@@ -74,7 +74,7 @@
           "yaw": 70,
           "title": {
             "en": "A building that welcomes",
-            "de": "Ein Haus, das Sie erkennt"
+            "de": "Ein Haus, das willkommen heißt"
           },
           "body": {
             "en": "There is no badge reader and no camera studying your face. The building recognizes the rhythm of your arrival — your gait on the path, the cadence you keep when you visit — and the door simply opens as you reach it. If it doesn't know you, it opens anyway, and the warmth inside does the welcoming. Recognition here is a courtesy, never a checkpoint.",
@@ -216,7 +216,7 @@
           },
           "body": {
             "en": "The wall knows two modes, because good workshops have two movements. When a team diverges, it splits into private stretches so ideas can multiply without an audience; when the team converges, the stretches flow back into one shared field and the duplicates find each other. The room choreographs this without a facilitator saying a word — light and surface do the moderating.",
-            "de": "Die Wand kennt zwei Modi, weil gute Workshops zwei Bewegungen haben. Wenn ein Team auseinanderdenkt, teilt sie sich in private Abschnitte, damit Ideen sich ohne Publikum vermehren können; wenn das Team zusammenführt, fließen die Abschnitte wieder zu einer gemeinsamen Fläche zusammen, und die Dubletten finden einander. Der Raum choreografiert das, ohne dass eine Moderatorin ein Wort sagt — Licht und Oberfläche moderieren mit."
+            "de": "Die Wand kennt zwei Modi, weil gute Workshops zwei Bewegungen haben. Wenn ein Team auseinanderdenkt, teilt sie sich in private Abschnitte, damit Ideen sich ohne Publikum vermehren können; wenn das Team wieder zusammenfindet, fließen die Abschnitte wieder zu einer gemeinsamen Fläche zusammen, und die Dubletten finden einander. Der Raum choreografiert das, ohne dass eine Moderatorin ein Wort sagt — Licht und Oberfläche moderieren mit."
           }
         }
       ]
