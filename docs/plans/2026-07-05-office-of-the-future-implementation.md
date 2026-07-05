@@ -324,6 +324,7 @@ Single IIFE, no dependencies beyond the global `pannellum`. Responsibilities:
 7. **Menu (free roam):** list of scene names in current lang; click → `showScene(i)` and `mode='roam'` (roam mode never auto-shows narration again once a scene was visited; keep a `visited` Set).
 8. **Language toggle:** flips `state.lang`, re-applies every `data-ui` string, narration card, hotspot card (if open), menu list, scene label, and both toggle buttons' labels (`EN`/`DE` shows the *other* language as the label). Hotspot tooltips: pass `createTooltipFunc` that renders from state so language flips affect them on next open (documented limitation: Pannellum tooltip text is set at creation; use tooltip-less ember dots and rely on the card, so nothing stale is shown).
 9. **Keyboard:** `→`/`Space` = continue, `Esc` closes cards/menu, `m` toggles menu.
+10. **Audio layer (added):** a `#sound-toggle` button in the HUD (add to `index.html`; label from `ui.soundOn`/`ui.soundOff` — add both keys to `content.json` EN/DE). Scenes may declare optional `audio: { narration: {en, de}, ambience: "audio/<id>-ambience.mp3" }` paths in `content.json`. On scene enter, if sound is on: play the narration clip for the current language (one shared `<audio>` element, `preload="none"`); start/crossfade the ambience loop (second `<audio>`, `loop`, volume 0.25). Missing files or missing `audio` keys must degrade silently (catch play() rejections, `onerror` → ignore). Sound defaults ON (the Enter click is the required user gesture); toggling off pauses both elements immediately. Language switch mid-scene: stop narration, don't replay automatically.
 
 **Step 2: Smoke-test over HTTP**
 
@@ -358,6 +359,28 @@ If a headless browser is available (`npx playwright --version` works), automate:
 git add site/app.js
 git commit -m "feat: guided tour, free roam, hotspots, EN/DE toggle"
 ```
+
+---
+
+### Task 6b: Voiceover pipeline (ElevenLabs)
+
+**Files:**
+- Create: `tools/make_voiceovers.py`
+- Create (when key available): `site/audio/<scene>-<lang>.mp3` (10 clips), optionally `landing-<lang>.mp3`, `outro-<lang>.mp3`
+
+**Step 1: Write `tools/make_voiceovers.py`**
+
+Reads narrations (and meta.thesis, ui.outro) from `site/content.json`; calls the ElevenLabs TTS API (`eleven_multilingual_v2`, one warm narrator voice for both languages, voice ID configurable at top of script); writes MP3s to `site/audio/`. Requires `ELEVENLABS_API_KEY` env var — if absent, print clear instructions and exit 0 (pipeline is "prepared", not failing). Use `requests` (or stdlib `urllib`) — no SDK dependency. `--only <scene-id>` flag for regenerating a single clip. Print each written file + size.
+
+**Step 2: Update `site/content.json`** — add `audio.narration.{en,de}` paths to all five scenes (paths may not exist yet; app.js degrades silently) and `ui.soundOn`/`ui.soundOff` strings.
+
+**Step 3: Verify** — without a key: script exits 0 with instructions. With a key: 10 MP3s in `site/audio/`, each < 1 MB, spot-listen one per language.
+
+**Step 4: Commit** — `feat: ElevenLabs voiceover pipeline` (+ generated clips if key was available).
+
+**Licensing note:** ElevenLabs free tier is non-commercial; partner needs Starter tier or above for this client-facing deliverable.
+
+**Ambience (optional, non-blocking):** CC0 loops (fire crackle for hearth, outdoor birdsong for approach, soft room tone elsewhere) may be added later as `site/audio/<id>-ambience.mp3` + `audio.ambience` keys; player support ships in Task 6.
 
 ---
 
@@ -492,11 +515,10 @@ git add .github/workflows/deploy.yml
 git commit -m "ci: deploy site/ to GitHub Pages"
 ```
 
-**Step 4: Partner actions (document in README, cannot be automated without repo)**
+**Step 4: Repo/Pages state (updated 2026-07-05)**
 
-1. Create GitHub repo, `git remote add origin …`, `git push -u origin main`.
-2. Repo Settings → Pages → Source: **GitHub Actions**.
-3. Site appears at `https://<user>.github.io/<repo>/`. Note: all site URLs are relative (verify no leading-`/` paths in `index.html`/`app.js`/`content.json` — required for project-page subpath hosting).
+Repo exists: `https://github.com/AlexHacksAround/FutureOfWork` (remote `origin`, pushed). Partner already enabled Pages with custom domain **futureofwork.byatw.com** (cert approved), but `build_type` is `legacy` (branch `main`, path `/`) — wrong for our `site/` layout. In this task, after committing the workflow: switch to workflow deployment and enforce HTTPS via `gh api -X PUT repos/AlexHacksAround/FutureOfWork/pages -f build_type=workflow -F https_enforced=true`, then push and verify the Actions run deploys and `https://futureofwork.byatw.com/` serves the site. All site URLs are relative, which works at a domain root too.
+Task order note: Task 10 is pulled forward to run right after Task 6, so every subsequent push is visible live.
 
 ---
 
