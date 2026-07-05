@@ -88,7 +88,7 @@ curl -fsSL -o site/vendor/pannellum.css https://cdn.jsdelivr.net/npm/pannellum@2
 **Step 2: Verify integrity**
 
 Run: `grep -c "pannellum" site/vendor/pannellum.js && wc -c site/vendor/pannellum.js site/vendor/pannellum.css`
-Expected: count > 0; pannellum.js ≈ 90–120 KB, pannellum.css ≈ 10–15 KB. If the CDN fails, fall back to `https://github.com/mpetroff/pannellum/releases/download/2.5.6/pannellum-2.5.6.zip` (files are in `build/` inside the zip).
+Expected: count > 0; pannellum.js ≈ 55–60 KB (56,249 B verified byte-identical to the official release), pannellum.css ≈ 9–10 KB. If the CDN fails, fall back to `https://github.com/mpetroff/pannellum/releases/download/2.5.6/pannellum-2.5.6.zip` (files are in `build/` inside the zip).
 
 **Step 3: Commit**
 
