@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14100c">
+  <title>The Office of 2035 — The Listening Cave</title>
+  <link rel="stylesheet" href="vendor/pannellum.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Landing -->
+  <section id="landing">
+    <button id="lang-toggle" class="lang"></button>
+    <div class="landing-inner">
+      <h1 data-ui="title"></h1>
+      <p class="subtitle" data-ui="subtitle"></p>
+      <div class="ember-rule" aria-hidden="true"></div>
+      <p class="thesis" data-ui="thesis"></p>
+      <button id="enter" data-ui="enter"></button>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" hidden>
+    <div id="viewer"></div>
+
+    <div id="narration" class="card" hidden>
+      <h2 id="narration-name"></h2>
+      <p id="narration-text"></p>
+      <button id="narration-ok" data-ui="lookAround"></button>
+    </div>
+
+    <div id="hotspot-card" class="card" hidden>
+      <h3 id="hotspot-title"></h3>
+      <p id="hotspot-body"></p>
+      <button id="hotspot-close" data-ui="close"></button>
+    </div>
+
+    <nav id="hud">
+      <button id="menu-toggle" data-ui="scenes"></button>
+      <span id="scene-label"></span>
+      <button id="next-scene" data-ui="continue"></button>
+      <button id="lang-toggle-hud" class="lang"></button>
+    </nav>
+
+    <div id="menu" hidden><ul id="menu-list"></ul></div>
+  </section>
+
+  <script src="vendor/pannellum.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
