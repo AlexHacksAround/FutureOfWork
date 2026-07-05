@@ -370,7 +370,7 @@ git commit -m "feat: guided tour, free roam, hotspots, EN/DE toggle"
 
 **Step 1: Write `tools/make_voiceovers.py`**
 
-Reads narrations (and meta.thesis, ui.outro) from `site/content.json`; calls the ElevenLabs TTS API (`eleven_multilingual_v2`, one warm narrator voice for both languages, voice ID configurable at top of script); writes MP3s to `site/audio/`. Requires `ELEVENLABS_API_KEY` env var — if absent, print clear instructions and exit 0 (pipeline is "prepared", not failing). Use `requests` (or stdlib `urllib`) — no SDK dependency. `--only <scene-id>` flag for regenerating a single clip. Print each written file + size.
+Reads narrations (and meta.thesis, ui.outro) from `site/content.json`; calls the ElevenLabs TTS API (`eleven_multilingual_v2`, one warm narrator voice for both languages, voice ID configurable at top of script); writes MP3s to `site/audio/`. Key resolution: `ELEVENLABS_API_KEY` env var, else read `/home/af/api_keys/11labs` (partner's key file — NEVER print the key or commit it); if neither, print clear instructions and exit 0 (pipeline is "prepared", not failing). Use `requests` (or stdlib `urllib`) — no SDK dependency. `--only <scene-id>` flag for regenerating a single clip. Print each written file + size.
 
 **Step 2: Update `site/content.json`** — add `audio.narration.{en,de}` paths to all five scenes (paths may not exist yet; app.js degrades silently) and `ui.soundOn`/`ui.soundOff` strings.
 
