@@ -35,11 +35,14 @@ for desks and becomes a temple of interaction, creation, empathy, and deep focus
   robots, faces, or synthetic colleagues anywhere — in the imagery, the essay, or
   the site copy. The *room* responds (light, surfaces, sound); it never pretends
   to be a person.
-- **The haptic data surface is the centerpiece.** A surface that displays data and
-  physically adapts to touch at the same time — see the trend line and feel the
-  anomaly as a dent. Anchored to real research trajectories (MIT inFORM/Materiable
-  shape displays, Ultraleap mid-air ultrasound haptics, electrostatic surface
-  haptics) so it reads as foresight, not fantasy.
+- **The haptic data surface is the centerpiece — and it is a tool, not a show.**
+  A surface that displays data and physically adapts to touch at the same time:
+  see the trend line and feel the anomaly as a dent, then push back — probe,
+  filter, reshape with your hands. Working with data is framed as a craft
+  (active), never a presentation (passive). Anchored to real research
+  trajectories (MIT inFORM/Materiable shape displays, Ultraleap mid-air
+  ultrasound haptics, electrostatic surface haptics) so it reads as foresight,
+  not fantasy.
 
 ## The five spaces (shared skeleton of essay and site)
 
@@ -55,8 +58,12 @@ classic office aesthetics.
    a team sketches and the room listens and draws with them.
 4. **The Den** — small enclosed alcove for concentrated solo work; soft, dark,
    womb-like.
-5. **The Sense Room** — haptic data exploration; the adaptive display-and-touch
-   surface; the deepest chapter and richest scene.
+5. **The Loom** — the room where you *work* data like a material, not merely
+   sense it. The adaptive display-and-touch surface is its workbench: weave,
+   probe, and reshape data; feel the anomaly as a dent under your fingers.
+   Named for the loom as the ancestor of computing (Jacquard) — the first
+   machine to hold data was a tactile craft tool. The deepest chapter and
+   richest scene.
 
 ## Deliverable 1: the essay
 
@@ -89,8 +96,8 @@ ambient LLMs).
   around; a subtle *Continue* advances.
 - **Free roam:** minimal map/menu to jump between scenes.
 - **Hotspots:** 3–5 glowing points per scene; each opens a short card with the
-  idea behind what you're seeing. The Sense Room's central hotspot explains the
-  adaptive haptic surface.
+  idea behind what you're seeing. The Loom's central hotspot explains the
+  adaptive haptic surface and the loom-to-computing lineage.
 - **Language toggle** EN/DE (DE content in phase 2).
 - Desktop drag, mobile gyroscope, presentable on a big screen in client meetings.
 
