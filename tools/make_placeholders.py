@@ -28,9 +28,9 @@ for name, (top, bottom) in SCENES.items():
         for x in range(W):
             px[x, y] = row
     d = ImageDraw.Draw(img)
-    d.line([(0, H // 2), (W, H // 2)], fill=(255, 255, 255, 40), width=2)
+    d.line([(0, H // 2), (W, H // 2)], fill=(200, 190, 180), width=2)
     label = name.replace("-", " ").upper() + " · PLACEHOLDER"
-    f = font(96)
+    f = font(56)  # longest label ~981px, fits the 1024px quarter spacing
     tw = d.textlength(label, font=f)
     for i in range(4):  # readable at any viewing direction
         d.text(((W * i / 4 + W / 8) - tw / 2, H // 2 - 140), label,
