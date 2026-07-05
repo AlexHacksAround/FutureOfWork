@@ -33,7 +33,6 @@
 
   var state = {
     lang: (navigator.language || "en").toLowerCase().indexOf("de") === 0 ? "de" : "en",
-    mode: "tour",          // 'tour' | 'roam'
     index: 0,              // current scene index
     content: null,
     visited: new Set(),
@@ -94,9 +93,11 @@
   function playNarrationAudio(scene) {
     stopNarrationAudio();
     var src = scene.audio && scene.audio.narration && scene.audio.narration[state.lang];
-    if (src && state.soundOn) {
+    if (src) {
+      // Always set the src so the sound-on toggle can resume mid-scene;
+      // only actually play when sound is on.
       narrationAudio.src = src;
-      tryPlay(narrationAudio);
+      if (state.soundOn) tryPlay(narrationAudio);
     }
   }
 
@@ -286,6 +287,10 @@
 
   function onContinue() {
     if (!state.entered || !els.menu.hidden) return;
+    // While a panorama is still loading, Pannellum's loadScene() is a
+    // silent no-op — advancing state here would desync HUD/narration
+    // from the visible scene, so ignore the click until it settles.
+    if (viewer && !viewer.isLoaded()) return;
     if (state.index >= scenes().length - 1) {
       // Finish: open the menu with the closing line.
       hideNarration();
@@ -358,7 +363,9 @@
     els.menu.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("#menu-list button") : null;
       if (btn) {
-        state.mode = "roam";
+        // Same guard as onContinue: jumping while a scene is loading
+        // would desync state from the visible panorama.
+        if (viewer && !viewer.isLoaded()) return;
         closeMenu();
         showScene(Number(btn.getAttribute("data-scene")));
       } else {

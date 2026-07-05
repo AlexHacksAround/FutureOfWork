@@ -357,6 +357,18 @@ button {
 
 #menu[hidden] { display: none; }
 
+#menu-outro {
+  margin: 0 0 1.4rem;
+  padding: 0 2rem;
+  max-width: 34rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #b9a98f;
+}
+
 #menu-list {
   margin: 0;
   padding: 0;
