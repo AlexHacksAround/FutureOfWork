@@ -439,7 +439,7 @@ git commit -m "feat: Skybox AI prompt library + previews-only regeneration"
 
 Structure and budgets (total ~4,500–6,000 words ≈ 8–12 pages):
 
-1. **Lascaux, 17,000 BC** (~400 w) — the first shared workspace; the wall as memory, teaching, ritual. Pivot: we are going back, but this time the wall listens.
+1. **Lascaux, seventeen thousand years ago** (~400 w) — the first shared workspace; the wall as memory, teaching, ritual. Pivot: we are going back, but this time the wall listens.
 2. **The wrong future** (~500 w) — glass towers, hologram receptionists, humanoid assistants, dashboard walls: why "more screens" extrapolates the past instead of imagining the future; the uncanny valley as a design dead end; the real trajectory of technology is disappearance (cite: calm computing, ubiquitous computing lineage).
 3. **The Approach** (~500 w) · 4. **The Hearth** (~600 w) · 5. **The Painted Wall** (~700 w) · 6. **The Den** (~500 w) · 7. **The Loom** (~900 w, the centerpiece) — each chapter: opens with a second-person scene ("You arrive and…"), unpacks what work happens here / what invisible technology enables it / what it replaces; ends with a link to the matching 360° scene. The Loom chapter carries the haptic-data argument and Jacquard lineage in full.
 4. **What this means for leaders** (~600 w) — 2035 is one office-lease cycle away; three questions (real estate, tools, rituals); conversation-starter close, no pitch.

@@ -69,7 +69,7 @@ classic office aesthetics.
 
 Structure:
 
-- **Opening: Lascaux, 17,000 BC.** The first shared workspace was a cave wall.
+- **Opening: Lascaux, seventeen thousand years ago.** The first shared workspace was a cave wall.
   We're going back — this time the wall listens.
 - **The wrong future.** Demolition of the glass-and-hologram office cliché
   (including anthropomorphic AI); why "more screens" is the past.

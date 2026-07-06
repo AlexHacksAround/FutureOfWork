@@ -283,6 +283,11 @@
     }
     updateAmbience(scene);
     updateHud();
+    // Deep link: keep the URL pointing at the current scene without
+    // polluting the browser history.
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, "", "#" + scene.id);
+    }
   }
 
   function onContinue() {
@@ -305,7 +310,7 @@
      Pannellum
      --------------------------------------------------------- */
 
-  function initViewer() {
+  function initViewer(firstSceneId) {
     var sceneConfigs = {};
     scenes().forEach(function (s, i) {
       sceneConfigs[s.id] = {
@@ -325,7 +330,7 @@
     });
     viewer = window.pannellum.viewer("viewer", {
       "default": {
-        firstScene: scenes()[0].id,
+        firstScene: firstSceneId,
         sceneFadeDuration: 800,
         autoLoad: true,
         autoRotate: reducedMotion ? 0 : -2, // slow pan; Pannellum stops it on drag
@@ -345,8 +350,15 @@
     state.entered = true;
     els.landing.hidden = true;
     els.experience.hidden = false;
-    initViewer(); // init after the container is visible so it sizes correctly
-    showScene(0);
+    // Deep link: a #<scene-id> hash starts the tour at that scene. It is
+    // treated as the first shown scene — visited/narration logic unchanged.
+    var start = 0;
+    var hash = window.location.hash.replace(/^#/, "");
+    scenes().forEach(function (s, i) { if (s.id === hash) start = i; });
+    // Init after the container is visible so it sizes correctly; hand the
+    // start scene to Pannellum directly so no loadScene() races the load.
+    initViewer(scenes()[start].id);
+    showScene(start);
   }
 
   function wireEvents() {
