@@ -2,53 +2,65 @@
   "meta": {
     "title": {
       "en": "The Office of 2035",
-      "de": "Das Büro von 2035"
+      "de": "Das Büro von 2035",
+      "fr": "Le Bureau de 2035"
     },
     "subtitle": {
       "en": "The Listening Cave",
-      "de": "Die lauschende Höhle"
+      "de": "Die lauschende Höhle",
+      "fr": "La Grotte qui écoute"
     },
     "thesis": {
-      "en": "The most advanced office will look the least technological: the walls listen, work becomes embodied again, and the office becomes a temple of interaction, creation, empathy, and deep focus.",
-      "de": "Das fortschrittlichste Büro wird am wenigsten nach Technologie aussehen: Die Wände hören zu, Arbeit wird wieder körperlich — und das Büro wird zum Tempel für Begegnung, Schöpfung, Empathie und tiefe Konzentration."
+      "en": "The most advanced office will look the least technological. Two technologies carry it — a wall you can write on and a data surface you can feel — in bright, ordinary rooms, one office lease away from today.",
+      "de": "Das fortschrittlichste Büro wird am wenigsten nach Technologie aussehen. Zwei Technologien tragen es — eine Wand, auf der man schreiben kann, und eine Datenfläche, die man fühlen kann — in hellen, alltäglichen Räumen, nur einen Büromietvertrag von heute entfernt.",
+      "fr": "Le bureau le plus avancé sera celui qui aura l'air le moins technologique. Deux technologies le portent — un mur sur lequel on peut écrire et une surface de données que l'on peut toucher — dans des pièces claires et ordinaires, à un bail de bureau d'aujourd'hui."
     }
   },
   "ui": {
     "enter": {
       "en": "Enter",
-      "de": "Eintreten"
+      "de": "Eintreten",
+      "fr": "Entrer"
     },
     "lookAround": {
       "en": "Look around",
-      "de": "Umsehen"
+      "de": "Umsehen",
+      "fr": "Regarder autour"
     },
     "continue": {
       "en": "Continue",
-      "de": "Weiter"
+      "de": "Weiter",
+      "fr": "Continuer"
     },
     "finish": {
       "en": "Finish",
-      "de": "Abschließen"
+      "de": "Abschließen",
+      "fr": "Terminer"
     },
     "close": {
       "en": "Close",
-      "de": "Schließen"
+      "de": "Schließen",
+      "fr": "Fermer"
     },
     "scenes": {
       "en": "Scenes",
-      "de": "Räume"
+      "de": "Räume",
+      "fr": "Espaces"
     },
     "soundOn": {
       "en": "Sound on",
-      "de": "Ton an"
+      "de": "Ton an",
+      "fr": "Son activé"
     },
     "soundOff": {
       "en": "Sound off",
-      "de": "Ton aus"
+      "de": "Ton aus",
+      "fr": "Son coupé"
     },
     "outro": {
       "en": "The tour ends here, but the rooms stay open. Wander wherever you like — the walls are listening.",
-      "de": "Die Führung endet hier, doch die Räume bleiben offen. Gehen Sie, wohin Sie möchten — die Wände hören zu."
+      "de": "Die Führung endet hier, doch die Räume bleiben offen. Gehen Sie, wohin Sie möchten — die Wände hören zu.",
+      "fr": "La visite s'achève ici, mais les pièces restent ouvertes. Allez où bon vous semble — les murs écoutent."
     }
   },
   "scenes": [
@@ -59,16 +71,19 @@
       "audio": {
         "narration": {
           "en": "audio/approach-en.mp3",
-          "de": "audio/approach-de.mp3"
+          "de": "audio/approach-de.mp3",
+          "fr": "audio/approach-fr.mp3"
         }
       },
       "name": {
         "en": "The Approach",
-        "de": "Die Ankunft"
+        "de": "Die Ankunft",
+        "fr": "L'Arrivée"
       },
       "narration": {
-        "en": "The office of 2035 does not begin upstairs. It begins in what was once a corporate lobby — reception desk gone, turnstiles gone, the concrete warmed with wood and clay plaster, the tram stop just outside the old glazing. By the time you reach the elevators, the work has already started — and the building already knows you are here.",
-        "de": "Das Büro von 2035 beginnt nicht oben in den Etagen. Es beginnt in einer ehemaligen Firmenlobby: Der Empfangstresen ist fort, die Drehkreuze sind fort, der Beton trägt jetzt Holz und Lehmputz, und draußen vor der alten Verglasung hält die Tram. Bis Sie die Aufzüge erreichen, hat die Arbeit längst begonnen — und das Haus weiß bereits, dass Sie da sind."
+        "en": "The office of 2035 begins at street level, in what used to be a corporate lobby. Reception desk and turnstiles are gone; wood, stone benches and plants have warmed the concrete, and the tram stops right outside the glass. It is the same building the company leased years ago — the future arrived as a renovation, not a construction project.",
+        "de": "Das Büro von 2035 beginnt auf Straßenniveau, in einer ehemaligen Firmenlobby. Empfangstresen und Drehkreuze sind fort; Holz, Steinbänke und Pflanzen haben den Beton erwärmt, und die Tram hält direkt vor dem Glas. Es ist dasselbe Gebäude, das die Firma vor Jahren gemietet hat — die Zukunft kam als Renovierung, nicht als Bauprojekt.",
+        "fr": "Le bureau de 2035 commence au niveau de la rue, dans ce qui était un hall d'entreprise. Le comptoir d'accueil et les tourniquets ont disparu ; le bois, les bancs de pierre et les plantes ont réchauffé le béton, et le tram s'arrête juste devant la vitre. C'est le même immeuble que l'entreprise a loué il y a des années — le futur est arrivé par une rénovation, pas par une construction neuve."
       },
       "hotspots": [
         {
@@ -76,23 +91,27 @@
           "yaw": 0,
           "title": {
             "en": "The guest commons",
-            "de": "Die Gästehalle"
+            "de": "Die Gästehalle",
+            "fr": "L'espace des invités"
           },
           "body": {
-            "en": "These low wood tables and planted alcoves stand where the reception desk used to be — the terrazzo still shows the pale rectangle where it was bolted down. This is the office's first workspace, and it belongs to visitors as much as to the people upstairs. Half the ideas this company runs on were first said out loud here, over coffee, before anyone pressed an elevator button.",
-            "de": "Diese niedrigen Holztische und bepflanzten Nischen stehen dort, wo früher der Empfangstresen stand — im Terrazzo zeichnet sich noch das helle Rechteck ab, wo er verschraubt war. Das ist der erste Arbeitsraum des Büros — und er gehört den Gästen genauso wie den Menschen in den Etagen darüber. Die Hälfte der Ideen, von denen dieses Unternehmen lebt, wurde zuerst hier ausgesprochen, bei einem Kaffee, bevor irgendjemand einen Aufzugsknopf gedrückt hat."
+            "en": "These low tables stand where the reception desk used to be. They are the office's first workspace, and they belong to visitors as much as to the people upstairs: a guest can sit down, spread out a problem and start working before anyone signs anything. Many of the conversations this company runs on start here, over coffee, at street level.",
+            "de": "Diese niedrigen Tische stehen dort, wo früher der Empfangstresen stand. Sie sind der erste Arbeitsraum des Büros, und sie gehören den Gästen genauso wie den Menschen in den Etagen darüber: Ein Gast kann sich setzen, ein Problem ausbreiten und anfangen zu arbeiten, bevor irgendjemand etwas unterschreibt. Viele der Gespräche, von denen dieses Unternehmen lebt, beginnen hier, bei einem Kaffee, auf Straßenniveau.",
+            "fr": "Ces tables basses se trouvent là où était le comptoir d'accueil. Elles sont le premier espace de travail du bureau, et elles appartiennent autant aux visiteurs qu'aux gens des étages : un invité peut s'asseoir, étaler un problème et se mettre au travail avant que quiconque ait signé quoi que ce soit. Beaucoup des conversations qui font vivre cette entreprise commencent ici, autour d'un café, au niveau de la rue."
           }
         },
         {
           "pitch": 4,
           "yaw": 70,
           "title": {
-            "en": "A building that welcomes",
-            "de": "Ein Haus, das willkommen heißt"
+            "en": "A renovation, not a rebuild",
+            "de": "Eine Renovierung, kein Neubau",
+            "fr": "Une rénovation, pas une reconstruction"
           },
           "body": {
-            "en": "The turnstiles came out in the first week of the retrofit, and nothing replaced them — no badge reader, no camera studying your face. The building recognizes the rhythm of your arrival — your step across the floor, the cadence you keep when you visit — and the way upstairs simply opens as you reach it. If it doesn't know you, it opens anyway, and the warmth inside does the welcoming. Recognition here is a courtesy, never a checkpoint.",
-            "de": "Die Drehkreuze wurden in der ersten Woche des Umbaus ausgebaut, und nichts hat sie ersetzt — kein Kartenlesegerät, keine Kamera, die Ihr Gesicht mustert. Das Haus erkennt den Rhythmus Ihrer Ankunft — Ihren Schritt über den Boden, die Kadenz, mit der Sie kommen — und der Weg nach oben öffnet sich einfach, wenn Sie ihn erreichen. Kennt es Sie nicht, öffnet er sich trotzdem, und die Wärme im Inneren übernimmt das Willkommen. Erkennung ist hier eine Geste der Höflichkeit, nie eine Kontrolle."
+            "en": "Look up: the wood-slat ceiling hangs under the same concrete slab this building has had for decades. 2035 is nine years away, so the offices in use then are the buildings standing now — everything here is a finish applied to existing structure. The question this lobby asks is not what to build, but what the space you already lease could become.",
+            "de": "Schauen Sie nach oben: Die Holzlamellendecke hängt unter derselben Betondecke, die dieses Gebäude seit Jahrzehnten trägt. 2035 ist neun Jahre entfernt — die Büros, die dann genutzt werden, sind die Gebäude, die heute stehen. Alles hier ist eine Oberfläche auf vorhandener Struktur. Die Frage, die diese Lobby stellt, ist nicht, was man bauen soll, sondern was aus der Fläche werden kann, die Sie schon gemietet haben.",
+            "fr": "Levez les yeux : le plafond à lames de bois est suspendu sous la même dalle de béton qui porte cet immeuble depuis des décennies. 2035 est à neuf ans d'ici — les bureaux qu'on utilisera alors sont les immeubles qui existent aujourd'hui. Tout ici est une finition posée sur une structure existante. La question que pose ce hall n'est pas quoi construire, mais ce que pourrait devenir la surface que vous louez déjà."
           }
         },
         {
@@ -100,11 +119,13 @@
           "yaw": -103,
           "title": {
             "en": "Why work starts at street level",
-            "de": "Warum Arbeit im Erdgeschoss beginnt"
+            "de": "Warum Arbeit im Erdgeschoss beginnt",
+            "fr": "Pourquoi le travail commence au rez-de-chaussée"
           },
           "body": {
-            "en": "The floor-to-ceiling glass this lobby always had finally earns its keep: instead of sealing the company off from the street, it lets the street in. A guest steps off the tram, crosses the pavement, and is at a working table in under a minute — no sign-in, no escort, no waiting on a visitor couch. The best first conversations of 2035 happen at street level, before anyone decides to go upstairs.",
-            "de": "Die raumhohe Verglasung, die diese Lobby schon immer hatte, verdient sich endlich ihren Platz: Statt das Unternehmen von der Straße abzuschirmen, lässt sie die Straße herein. Ein Gast steigt aus der Tram, überquert den Gehweg und sitzt keine Minute später an einem Arbeitstisch — ohne Anmeldung, ohne Begleitung, ohne Wartesofa. Die besten ersten Gespräche des Jahres 2035 finden im Erdgeschoss statt, bevor irgendjemand beschließt, nach oben zu gehen."
+            "en": "The full-height glazing this lobby always had finally earns its keep: instead of sealing the company off from the street, it lets the street in. A guest steps off the tram, crosses the pavement and is at a working table in under a minute — no sign-in, no escort, no visitor couch. The best first conversations happen before anyone decides to go upstairs.",
+            "de": "Die raumhohe Verglasung, die diese Lobby schon immer hatte, verdient sich endlich ihren Platz: Statt das Unternehmen von der Straße abzuschirmen, lässt sie die Straße herein. Ein Gast steigt aus der Tram, überquert den Gehweg und sitzt keine Minute später an einem Arbeitstisch — ohne Anmeldung, ohne Begleitung, ohne Wartesofa. Die besten ersten Gespräche finden statt, bevor irgendjemand beschließt, nach oben zu gehen.",
+            "fr": "Le vitrage toute hauteur que ce hall a toujours eu se rend enfin utile : au lieu d'isoler l'entreprise de la rue, il laisse entrer la rue. Un invité descend du tram, traverse le trottoir et s'installe à une table de travail en moins d'une minute — sans enregistrement, sans escorte, sans canapé d'attente. Les meilleures premières conversations ont lieu avant que quiconque décide de monter."
           }
         }
       ]
@@ -116,64 +137,75 @@
       "audio": {
         "narration": {
           "en": "audio/hearth-en.mp3",
-          "de": "audio/hearth-de.mp3"
+          "de": "audio/hearth-de.mp3",
+          "fr": "audio/hearth-fr.mp3"
         }
       },
       "name": {
         "en": "The Hearth",
-        "de": "Die Feuerstelle"
+        "de": "Die Feuerstelle",
+        "fr": "Le Foyer"
       },
       "narration": {
-        "en": "You step into warmth: a wide commons folded around a glowing ember hearth, the building's raw concrete ceiling softened above it with clay plaster and felt. Voices are soft here — not because anyone lowered them, but because the room did. This is where the company meets itself, and where it meets you.",
-        "de": "Sie treten in Wärme ein: ein weiter Gemeinschaftsraum, gefaltet um eine glimmende Feuerstelle, die rohe Betondecke darüber mit Lehmputz und Filz besänftigt. Die Stimmen sind leise — nicht, weil jemand sie gesenkt hätte, sondern weil der Raum es getan hat. Hier begegnet das Unternehmen sich selbst, und hier begegnet es Ihnen."
+        "en": "There is no fire here — the hearth is what the room does, not what stands in it. Wooden café tables, plants, daylight, the city skyline in the windows: this is the floor's commons, where the company meets itself and its guests. People sit where they can see each other's faces, the data goes on the walls, and the middle of the room stays free for the conversation.",
+        "de": "Hier brennt kein Feuer — die Feuerstelle ist, was der Raum tut, nicht, was in ihm steht. Warme Holztische, Pflanzen, Tageslicht, die Skyline der Stadt in den Fenstern: Das ist die Mitte der Etage, hier begegnet das Unternehmen sich selbst und seinen Gästen. Man sitzt so, dass man Gesichter sieht, die Daten gehen an die Wände, und die Mitte des Raums bleibt frei für das Gespräch.",
+        "fr": "Il n'y a pas de feu ici — le foyer, c'est ce que fait la pièce, pas ce qui s'y trouve. Des tables de café en bois, des plantes, la lumière du jour, la silhouette de la ville dans les fenêtres : c'est le lieu commun de l'étage, où l'entreprise se rencontre elle-même et rencontre ses invités. On s'assoit de façon à voir les visages, les données vont sur les murs, et le centre de la pièce reste libre pour la conversation."
       },
       "hotspots": [
         {
-          "pitch": -10,
-          "yaw": -5,
+          "pitch": -31,
+          "yaw": 31,
           "title": {
-            "en": "The fire at the center",
-            "de": "Das Feuer in der Mitte"
+            "en": "Where the meetings went",
+            "de": "Wohin die Meetings verschwanden",
+            "fr": "Où sont passées les réunions"
           },
           "body": {
-            "en": "Every culture that ever built anything gathered around fire, and no lobby fountain has replaced it. This one is a sealed ember hearth, flued up through one of the building's old service shafts — real warmth, slow moving light, and not a single fire alarm bothered. People drift toward it without being asked. It is the office's one non-negotiable meeting point — no agenda, no booking, no seat at the head.",
-            "de": "Jede Kultur, die je etwas hervorgebracht hat, versammelte sich ums Feuer — und kein Springbrunnen in einer Lobby hat es je ersetzt. Diese Glut brennt in einer geschlossenen Feuerstelle, ihr Abzug führt durch einen alten Versorgungsschacht des Gebäudes — echte Wärme, langsames, bewegtes Licht, und kein einziger Rauchmelder regt sich. Menschen finden sich hier ein, ohne gerufen zu werden. Es ist der einzige unverhandelbare Treffpunkt des Büros — ohne Agenda, ohne Buchung, ohne Platz am Kopfende."
-          }
-        },
-        {
-          "pitch": 13,
-          "yaw": 39,
-          "title": {
-            "en": "A room that hears the mood",
-            "de": "Ein Raum, der die Stimmung hört"
-          },
-          "body": {
-            "en": "The clay-plastered walls — reworked from the partition grid that once chopped this floor into meeting rooms — are an instrument. They listen to the room's sound — not to words, to texture — and they respond: absorbing a harsh edge here, carrying a quiet voice there, letting laughter ring. When a conversation turns tense, the acoustics soften around it, and shoulders drop before anyone knows why.",
-            "de": "Die lehmverputzten Wände — gewonnen aus dem Trennwandraster, das diese Etage einmal in Besprechungszimmer zerteilte — sind ein Instrument. Sie hören auf den Klang des Raums — nicht auf Worte, auf Textur — und sie antworten: Hier schlucken sie eine scharfe Kante, dort tragen sie eine leise Stimme, und Lachen lassen sie klingen. Kippt ein Gespräch ins Angespannte, wird die Akustik um es herum weicher — und die Schultern sinken, bevor jemand weiß, warum."
+            "en": "The standard meeting room was built around a screen at one end: every chair faced it, and for an hour colleagues saw mostly the sides of each other's heads. Here a meeting is a table you sit down at. Questions go to the room and the room answers — a number checked, a document found, a chart drawn on the nearest wall — and nobody breaks away to a keyboard.",
+            "de": "Der klassische Besprechungsraum war um einen Bildschirm an der Stirnseite gebaut: Jeder Stuhl war auf ihn ausgerichtet, und eine Stunde lang sahen Kollegen einander vor allem von der Seite. Hier ist ein Meeting ein Tisch, an den man sich setzt. Fragen gehen an den Raum, und der Raum antwortet — eine Zahl geprüft, ein Dokument gefunden, ein Diagramm an die nächste Wand gezeichnet — und niemand wendet sich ab zu einer Tastatur.",
+            "fr": "La salle de réunion classique était construite autour d'un écran en bout de salle : chaque chaise lui faisait face, et pendant une heure les collègues voyaient surtout le profil des autres. Ici, une réunion, c'est une table à laquelle on s'assoit. Les questions s'adressent à la pièce et la pièce répond — un chiffre vérifié, un document retrouvé, un graphique tracé sur le mur le plus proche — et personne ne s'éclipse derrière un clavier."
           }
         },
         {
           "pitch": 5,
-          "yaw": 116,
+          "yaw": 44,
           "title": {
-            "en": "Hosts, not gatekeepers",
-            "de": "Gastgeber statt Pförtner"
+            "en": "Seeing faces again",
+            "de": "Wieder Gesichter sehen",
+            "fr": "Revoir les visages"
           },
           "body": {
-            "en": "There is no reception desk — the one downstairs went out with the turnstiles — because a desk is a barrier with a person behind it. Instead there are hosts — people whose whole craft is arrival: they know who is coming, hand you something warm, and walk you in. The first minute of a visit sets the tone for the whole relationship, so 2035 gives that minute to a human, not a sign-in kiosk.",
-            "de": "Es gibt keinen Empfangstresen — der unten in der Lobby ging mit den Drehkreuzen hinaus —, denn ein Tresen ist eine Barriere mit einem Menschen dahinter. Stattdessen gibt es Gastgeber — Menschen, deren ganzes Handwerk das Ankommen ist: Sie wissen, wer kommt, reichen Ihnen etwas Warmes und begleiten Sie hinein. Die erste Minute eines Besuchs prägt die ganze Beziehung — deshalb gehört diese Minute 2035 einem Menschen, nicht einem Anmeldeterminal."
+            "en": "A meeting is, at bottom, a device for reading people: judgment, doubt and commitment have to be seen. Open-plan floors promised interaction by exposure and delivered the opposite — when the walls came down, face-to-face conversation fell by roughly seventy percent. This room gets the geometry right instead: small tables, an arc of chairs, no front, no presenter, faces toward faces.",
+            "de": "Ein Meeting ist im Kern ein Instrument, um Menschen zu lesen: Urteil, Zweifel und Zusage muss man sehen. Großraumbüros versprachen Austausch durch Nähe und lieferten das Gegenteil — als die Wände fielen, ging das persönliche Gespräch um rund siebzig Prozent zurück. Dieser Raum bringt stattdessen die Geometrie in Ordnung: kleine Tische, ein Bogen aus Stühlen, keine Stirnseite, niemand präsentiert, Gesichter einander zugewandt.",
+            "fr": "Une réunion est, au fond, un instrument pour lire les gens : le jugement, le doute et l'engagement doivent se voir. Les plateaux ouverts promettaient l'échange par la proximité et ont produit l'inverse — quand les cloisons sont tombées, la conversation en face à face a chuté d'environ soixante-dix pour cent. Cette pièce corrige plutôt la géométrie : de petites tables, un arc de chaises, pas de devant de salle, personne ne présente, les visages tournés vers les visages."
           }
         },
         {
-          "pitch": -5,
-          "yaw": -57,
+          "pitch": -8,
+          "yaw": 129,
           "title": {
-            "en": "Bread, coffee, ritual",
-            "de": "Brot, Kaffee, Ritual"
+            "en": "The data goes on the walls",
+            "de": "Die Daten gehen an die Wände",
+            "fr": "Les données vont sur les murs"
           },
           "body": {
-            "en": "Something is always being baked, brewed, or shared here, and that is policy, not perk. Eating together is the oldest trust protocol humans have; it predates language and outperforms every team workshop. The hearth's kitchen has no counter service — you help yourself, and you learn a colleague's name doing it.",
-            "de": "Hier wird immer etwas gebacken, gebrüht oder geteilt — und das ist Prinzip, kein Extra. Gemeinsames Essen ist das älteste Vertrauensprotokoll des Menschen; es ist älter als die Sprache und wirkt besser als jeder Team-Workshop. Die Küche an der Feuerstelle kennt keine Ausgabe — Sie bedienen sich selbst, und dabei lernen Sie den Namen einer Kollegin."
+            "en": "When every wall can carry the data, no wall is the front. The material stands around the group, and anyone can walk up to it, point at it, change it — the walls here are the same quiet working surfaces as in the rooms deeper in, blank until a conversation needs them. The record keeps itself: what was decided, and what the walls showed at the moment it was decided.",
+            "de": "Wenn jede Wand die Daten tragen kann, ist keine Wand mehr vorn. Das Material steht rings um die Gruppe, und jede und jeder kann hingehen, darauf zeigen, es verändern — die Wände hier sind dieselben stillen Arbeitsflächen wie in den Räumen weiter innen, leer, bis ein Gespräch sie braucht. Das Protokoll führt sich selbst: was entschieden wurde, und was die Wände in diesem Moment zeigten.",
+            "fr": "Quand chaque mur peut porter les données, aucun mur n'est le devant de la salle. La matière se tient autour du groupe, et chacun peut s'en approcher, la pointer du doigt, la modifier — les murs ici sont les mêmes surfaces de travail discrètes que dans les pièces plus profondes, vides tant qu'une conversation n'en a pas besoin. Le compte rendu se tient tout seul : ce qui a été décidé, et ce que les murs montraient au moment de la décision."
+          }
+        },
+        {
+          "pitch": -13,
+          "yaw": -72,
+          "title": {
+            "en": "Coffee, the oldest protocol",
+            "de": "Kaffee, das älteste Protokoll",
+            "fr": "Le café, le plus vieux protocole"
+          },
+          "body": {
+            "en": "Something is always being brewed or shared here, and that is deliberate. Eating and drinking together is the oldest trust-building ritual humans have; it predates language and outperforms every team workshop. There is no counter service — you help yourself, and you learn a colleague's name doing it.",
+            "de": "Hier wird immer etwas gebrüht oder geteilt, und das ist Absicht. Gemeinsam zu essen und zu trinken ist das älteste Vertrauensritual des Menschen; es ist älter als die Sprache und wirkt besser als jeder Team-Workshop. Es gibt keine Ausgabe — Sie bedienen sich selbst, und dabei lernen Sie den Namen einer Kollegin.",
+            "fr": "Il y a toujours quelque chose qui infuse ou qui se partage ici, et c'est voulu. Manger et boire ensemble est le plus ancien rituel de confiance de l'humanité ; il précède le langage et vaut mieux que n'importe quel séminaire d'équipe. Pas de comptoir de service — on se sert soi-même, et c'est comme cela qu'on apprend le prénom d'un collègue."
           }
         }
       ]
@@ -185,64 +217,75 @@
       "audio": {
         "narration": {
           "en": "audio/painted-wall-en.mp3",
-          "de": "audio/painted-wall-de.mp3"
+          "de": "audio/painted-wall-de.mp3",
+          "fr": "audio/painted-wall-fr.mp3"
         }
       },
       "name": {
         "en": "The Painted Wall",
-        "de": "Die bemalte Wand"
+        "de": "Die bemalte Wand",
+        "fr": "Le Mur peint"
       },
       "narration": {
-        "en": "This room holds one thing: a long wall with the texture of painted clay, built where a row of glass meeting boxes once divided the floor. Sketch on it with a finger, or just talk — the wall listens, and it draws with you. Seventeen thousand years after Lascaux, teams are back at the cave wall, and this time it answers.",
-        "de": "Dieser Raum enthält nur eines: eine lange Wand mit der Textur bemalten Lehms, errichtet dort, wo früher eine Reihe gläserner Besprechungsboxen die Etage zerteilte. Zeichnen Sie mit dem Finger darauf, oder sprechen Sie einfach — die Wand hört zu und zeichnet mit. Siebzehntausend Jahre nach Lascaux stehen Teams wieder an der Höhlenwand. Nur antwortet sie diesmal."
+        "en": "Every wall in this room works. The pump drawings around you are not posters — the surface is matte and reads like paper in daylight, but it displays, it takes touch, and the room listens: ask for the version before the inlet moved, and it hangs itself beside the current one. Seventeen thousand years after Lascaux, teams are back at the cave wall — and this time it answers.",
+        "de": "Jede Wand in diesem Raum arbeitet. Die Pumpenzeichnungen um Sie herum sind keine Poster — die Oberfläche ist matt und liest sich wie Papier im Tageslicht, aber sie zeigt an, sie nimmt Berührung an, und der Raum hört zu: Bitten Sie um die Version, bevor der Einlass verlegt wurde, und sie hängt sich neben die aktuelle. Siebzehntausend Jahre nach Lascaux stehen Teams wieder an der Höhlenwand — und diesmal antwortet sie.",
+        "fr": "Chaque mur de cette pièce travaille. Les dessins de pompe autour de vous ne sont pas des affiches — la surface est mate et se lit comme du papier en plein jour, mais elle affiche, elle accepte le toucher, et la pièce écoute : demandez la version d'avant le déplacement de l'admission, et elle vient s'accrocher à côté de la version actuelle. Dix-sept mille ans après Lascaux, les équipes sont de retour au mur de la grotte — et cette fois, il répond."
       },
       "hotspots": [
         {
-          "pitch": 1,
-          "yaw": 12,
+          "pitch": 5,
+          "yaw": 0,
           "title": {
-            "en": "The wall that draws with you",
-            "de": "Die Wand, die mitzeichnet"
+            "en": "The interactive wall",
+            "de": "Die interaktive Wand",
+            "fr": "Le mur interactif"
           },
           "body": {
-            "en": "Trace a rough housing and say \"the intake flange\" — the wall steadies your line and joins it to the exploded pump drawing towering beside you, in your handwriting. Talk through a design change out loud and it appears as you speak, in ochre strokes, ready to be pushed around. The wall never draws first and never draws better; it drafts under your intent, like a good apprentice with infinite patience.",
-            "de": "Zeichnen Sie ein grobes Gehäuse und sagen Sie \"der Ansaugflansch\" — die Wand glättet Ihre Linie und fügt sie der mannshohen Explosionszeichnung der Pumpe neben Ihnen hinzu, in Ihrer Handschrift. Sprechen Sie eine Konstruktionsänderung laut durch, und sie erscheint, während Sie sprechen, in Ockerstrichen, bereit, verschoben zu werden. Die Wand zeichnet nie zuerst und nie besser; sie arbeitet Ihrer Absicht zu, wie ein guter Lehrling mit unendlicher Geduld."
+            "en": "This is the first of the two technologies that carry the office of 2035: a wall that displays information, takes touch, and listens. Pull a schedule sideways with a flat hand and it scrolls through the quarter; circle a bearing with a finger and its tolerances step out next to your hand. At the wall there is no driver's seat — whoever points, works, and six people can stand at six parts of the same problem at once.",
+            "de": "Das ist die erste der beiden Technologien, die das Büro von 2035 tragen: eine Wand, die Information anzeigt, Berührung annimmt und zuhört. Ziehen Sie einen Zeitplan mit flacher Hand zur Seite, und er blättert durch das Quartal; kreisen Sie ein Lager mit dem Finger ein, und seine Toleranzen treten neben Ihrer Hand hervor. An der Wand gibt es keinen Fahrersitz — wer zeigt, arbeitet, und sechs Menschen können zugleich an sechs Stellen desselben Problems stehen.",
+            "fr": "Voici la première des deux technologies qui portent le bureau de 2035 : un mur qui affiche l'information, accepte le toucher et écoute. Faites glisser un planning de la main à plat et il parcourt le trimestre ; entourez un roulement du doigt et ses tolérances s'affichent à côté de votre main. Au mur, il n'y a pas de poste de pilotage — celui qui pointe, travaille, et six personnes peuvent se tenir devant six parties du même problème à la fois."
           }
         },
         {
-          "pitch": 23,
-          "yaw": -87,
+          "pitch": 5,
+          "yaw": 72,
           "title": {
-            "en": "Layers, like a cave",
-            "de": "Schichten wie in einer Höhle"
+            "en": "Generated, not installed",
+            "de": "Erzeugt, nicht installiert",
+            "fr": "Généré, pas installé"
           },
           "body": {
-            "en": "At Lascaux, painters worked over older paintings for generations, and every layer is still there. This wall keeps the same kind of memory: brush your hand across it and yesterday's version rises faintly under today's, and last month's under that. No idea is ever deleted here — only painted over, and always recoverable. Teams argue less about whose version won when every version is still on the wall.",
-            "de": "In Lascaux malten Menschen über Generationen hinweg über ältere Bilder — und jede Schicht ist noch da. Diese Wand hat dasselbe Gedächtnis: Streichen Sie mit der Hand darüber, und die gestrige Fassung scheint schwach unter der heutigen auf, und darunter die vom letzten Monat. Keine Idee wird hier je gelöscht — nur übermalt, und jederzeit wieder freizulegen. Teams streiten weniger darüber, wessen Fassung gewonnen hat, wenn jede Fassung noch an der Wand ist."
+            "en": "Notice what is missing: an application. Nobody booked a CAD seat or shared a spreadsheet window — the model behind the room understands the task and generates the interface the task needs, at the moment it is needed: a timeline while the talk is about dates, a cost breakdown when it turns to money. Software stops being a product you open and becomes a capability the room renders.",
+            "de": "Achten Sie darauf, was fehlt: eine Anwendung. Niemand hat einen CAD-Arbeitsplatz gebucht oder ein Tabellenfenster geteilt — das Modell hinter dem Raum versteht die Aufgabe und erzeugt die Oberfläche, die die Aufgabe braucht, in dem Moment, in dem sie gebraucht wird: eine Zeitleiste, solange es um Termine geht, eine Kostenaufstellung, sobald es ums Geld geht. Software hört auf, ein Produkt zu sein, das man öffnet, und wird zu einer Fähigkeit, die der Raum bereitstellt.",
+            "fr": "Remarquez ce qui manque : une application. Personne n'a réservé un poste de CAO ni partagé une feuille de calcul — le modèle derrière la pièce comprend la tâche et génère l'interface dont la tâche a besoin, au moment où elle en a besoin : une frise chronologique tant qu'on parle de délais, une ventilation des coûts dès qu'on parle d'argent. Le logiciel cesse d'être un produit qu'on ouvre et devient une capacité que la pièce fait apparaître."
           }
         },
         {
-          "pitch": 13,
-          "yaw": 116,
+          "pitch": -10,
+          "yaw": -111,
           "title": {
-            "en": "Clay and mineral light",
-            "de": "Lehm und Mineralpigment"
+            "en": "Layers, remembered",
+            "de": "Schichten, die bleiben",
+            "fr": "Des couches en mémoire"
           },
           "body": {
-            "en": "There is no glass here and no glow. The wall's surface is real clay, hand-troweled over the line where the old partitions ran, and its pixels are mineral pigments that change tone the way ink dries — matte, warm, readable in the full daylight the building's own windows let in. Cut the room's power and the last drawing simply stays, like a painting. Because it is one.",
-            "de": "Hier gibt es kein Glas und kein Leuchten. Die Oberfläche der Wand ist echter Lehm, von Hand über die Flucht der alten Trennwände gezogen, und ihre Pixel sind Mineralpigmente, die ihren Ton wechseln wie trocknende Tinte — matt, warm, lesbar im vollen Tageslicht, das die Fenster des Hauses hereinlassen. Schalten Sie den Strom des Raums ab, und die letzte Zeichnung bleibt einfach stehen, wie ein Gemälde. Weil sie eines ist."
+            "en": "At Lascaux, painters worked over one another's animals for centuries without erasing them, and every layer is still there. This wall keeps the same kind of memory: work accumulates in layers it remembers — who changed what, when, and what it looked like before. Brush your hand across the surface and yesterday's version rises faintly under today's. Nothing is deleted here, only painted over.",
+            "de": "In Lascaux malten Menschen über Jahrhunderte über die Tiere der anderen, ohne sie zu löschen — und jede Schicht ist noch da. Diese Wand hat dieselbe Art Gedächtnis: Arbeit sammelt sich in Schichten, die sie behält — wer was geändert hat, wann, und wie es vorher aussah. Streichen Sie mit der Hand über die Fläche, und die gestrige Fassung scheint schwach unter der heutigen auf. Hier wird nichts gelöscht, nur übermalt.",
+            "fr": "À Lascaux, les peintres ont travaillé pendant des siècles par-dessus les animaux des autres sans jamais les effacer — et chaque couche est encore là. Ce mur garde le même genre de mémoire : le travail s'accumule en couches dont il se souvient — qui a changé quoi, quand, et à quoi cela ressemblait avant. Passez la main sur la surface et la version d'hier affleure sous celle d'aujourd'hui. Ici, rien n'est supprimé — seulement recouvert."
           }
         },
         {
-          "pitch": -13,
-          "yaw": 77,
+          "pitch": 5,
+          "yaw": -57,
           "title": {
-            "en": "Rituals of the room",
-            "de": "Die Rituale des Raums"
+            "en": "The pump on the wall",
+            "de": "Die Pumpe an der Wand",
+            "fr": "La pompe sur le mur"
           },
           "body": {
-            "en": "The wall knows two modes, because good workshops have two movements. When a team diverges, it splits into private stretches so ideas can multiply without an audience; when the team converges, the stretches flow back into one shared field and the duplicates find each other. The room choreographs this without a facilitator saying a word — light and surface do the moderating.",
-            "de": "Die Wand kennt zwei Modi, weil gute Workshops zwei Bewegungen haben. Wenn ein Team auseinanderdenkt, teilt sie sich in private Abschnitte, damit Ideen sich ohne Publikum vermehren können; wenn das Team wieder zusammenfindet, fließen die Abschnitte wieder zu einer gemeinsamen Fläche zusammen, und die Dubletten finden einander. Der Raum choreografiert das, ohne dass eine Moderatorin ein Wort sagt — Licht und Oberfläche moderieren mit."
+            "en": "The drawing on this panel is a new pump under development, shown at full scale — full scale because the wall is the one display large enough for it. The schedule says it is late, which is why the team keeps coming back to this room. Circle a part and its tolerances step out; ask what changed since the last review, and the differences trace themselves in a second colour. Nobody typed, and nobody searched for the file.",
+            "de": "Die Zeichnung auf dieser Fläche ist eine neue Pumpe in der Entwicklung, in Originalgröße — in Originalgröße, weil die Wand das einzige Display ist, das dafür groß genug ist. Der Zeitplan sagt, sie ist spät dran; deshalb kommt das Team immer wieder in diesen Raum. Kreisen Sie ein Bauteil ein, und seine Toleranzen treten hervor; fragen Sie, was sich seit der letzten Prüfung geändert hat, und die Unterschiede zeichnen sich in einer zweiten Farbe nach. Niemand hat getippt, und niemand hat die Datei gesucht.",
+            "fr": "Le dessin sur ce panneau est une nouvelle pompe en cours de développement, à l'échelle un — à l'échelle un parce que le mur est le seul affichage assez grand pour elle. Le planning dit qu'elle est en retard ; c'est pour cela que l'équipe revient sans cesse dans cette pièce. Entourez une pièce et ses tolérances s'affichent ; demandez ce qui a changé depuis la dernière revue, et les différences se tracent d'elles-mêmes dans une seconde couleur. Personne n'a tapé au clavier, et personne n'a cherché le fichier."
           }
         }
       ]
@@ -254,52 +297,61 @@
       "audio": {
         "narration": {
           "en": "audio/den-en.mp3",
-          "de": "audio/den-de.mp3"
+          "de": "audio/den-de.mp3",
+          "fr": "audio/den-fr.mp3"
         }
       },
       "name": {
         "en": "The Den",
-        "de": "Die Klause"
+        "de": "Die Klause",
+        "fr": "Le Refuge"
       },
       "narration": {
-        "en": "You duck through a low opening into a niche of felt and wood, built between two of the building's concrete columns — dark, soft, warm, barely wider than your outstretched arms. A lambswool bench, a curved wall at your back, and a quiet so complete you can hear yourself think. That is the point: in 2035, the office's most precious square meters are the ones that hold exactly one person.",
-        "de": "Sie ducken sich durch eine niedrige Öffnung in eine Nische aus Filz und Holz, eingebaut zwischen zwei Betonstützen des Hauses — dunkel, weich, warm, kaum breiter als Ihre ausgestreckten Arme. Eine Bank mit Lammwolle, eine gewölbte Wand im Rücken und eine Stille, so vollkommen, dass Sie sich selbst denken hören. Genau das ist der Zweck: 2035 sind die kostbarsten Quadratmeter des Büros die, die genau einem Menschen gehören."
+        "en": "A small room, wood-panelled, full of daylight — perhaps the brightest, calmest room on the floor. You close the door and the noise stays outside: no inbox, no status feeds, one problem and a long, uninterrupted run at it. And when you open the door again, the notes are already written — the room kept the record while you did the thinking.",
+        "de": "Ein kleiner Raum, holzvertäfelt, voller Tageslicht — vielleicht der hellste, ruhigste Raum der Etage. Sie schließen die Tür, und der Lärm bleibt draußen: kein Posteingang, keine Statusmeldungen, ein Problem und ein langer, ununterbrochener Anlauf darauf. Und wenn Sie die Tür wieder öffnen, sind die Notizen schon geschrieben — der Raum hat das Protokoll geführt, während Sie gedacht haben.",
+        "fr": "Une petite pièce, lambrissée de bois, pleine de lumière du jour — peut-être la pièce la plus claire et la plus calme de l'étage. Vous fermez la porte et le bruit reste dehors : pas de boîte de réception, pas de fils d'actualité, un seul problème et une longue plage de travail ininterrompue. Et quand vous rouvrez la porte, les notes sont déjà écrites — la pièce a tenu le compte rendu pendant que vous pensiez."
       },
       "hotspots": [
         {
-          "pitch": 39,
-          "yaw": 0,
+          "pitch": -36,
+          "yaw": 23,
           "title": {
-            "en": "The shape of shelter",
-            "de": "Die Form der Geborgenheit"
+            "en": "A chair for one hard problem",
+            "de": "Ein Sessel für ein schweres Problem",
+            "fr": "Un fauteuil pour un problème difficile"
           },
           "body": {
-            "en": "The curve at your back is doing something ancient: a person whose back is covered thinks differently — slower pulse, longer attention, steadier judgment. The Den is dim because focus is nocturnal, and small because thought needs walls to press against. This is not a booth parked in an open plan; it is thick wool felt sculpted into the space between the building's own columns, its cushioned niches shaped to the body that will settle into them — architecture admitting what bodies have always needed.",
-            "de": "Die Wölbung in Ihrem Rücken tut etwas Uraltes: Ein Mensch mit gedecktem Rücken denkt anders — langsamerer Puls, längere Aufmerksamkeit, ruhigeres Urteil. Die Klause ist dunkel, weil Konzentration ein Nachttier ist, und klein, weil Gedanken Wände brauchen, an die sie sich lehnen können. Das ist keine Kabine, die man in eine offene Fläche gestellt hat — das ist dicker Wollfilz, in den Raum zwischen den Stützen des Hauses modelliert, seine gepolsterten Nischen dem Körper nachgeformt, der sich in sie betten wird: Architektur, die zugibt, was Körper immer gebraucht haben."
+            "en": "You retreat here not to hide from work but to meet a single hard piece of it. The scarcest resource in any company is uninterrupted human thought, and this armchair is where the building admits that. While you sit here, the building holds your messages and reroutes the truly urgent to a colleague who agreed to catch it — being unreachable is a wall here, not a status setting.",
+            "de": "Man zieht sich hierher nicht zurück, um sich vor der Arbeit zu verstecken, sondern um einem einzelnen schweren Stück von ihr zu begegnen. Die knappste Ressource in jedem Unternehmen ist ununterbrochenes menschliches Denken, und dieser Sessel ist der Ort, an dem das Gebäude das zugibt. Während Sie hier sitzen, hält das Haus Ihre Nachrichten zurück und leitet das wirklich Dringende an eine Kollegin weiter, die es übernehmen wollte — Unerreichbarkeit ist hier eine Wand, kein Status.",
+            "fr": "On ne se retire pas ici pour fuir le travail, mais pour affronter un seul morceau difficile de celui-ci. La ressource la plus rare de toute entreprise est la pensée humaine ininterrompue, et ce fauteuil est l'endroit où le bâtiment l'admet. Pendant que vous êtes assis ici, le bâtiment retient vos messages et redirige ce qui est vraiment urgent vers un collègue qui a accepté de s'en charger — être injoignable, ici, c'est un mur, pas un statut."
           }
         },
         {
-          "pitch": -45,
-          "yaw": -116,
+          "pitch": -31,
+          "yaw": 62,
           "title": {
-            "en": "Information without screens",
-            "de": "Information ohne Bildschirme"
+            "en": "The room writes it down",
+            "de": "Der Raum schreibt mit",
+            "fr": "La pièce prend les notes"
           },
           "body": {
-            "en": "Work still reaches you here, but never as a glowing rectangle. A voice reads you the brief while your eyes rest; the light warms a shade when the answer you have been waiting for arrives. And when a document truly needs your eyes, the room hands it to you the way it hands you everything — one thing at a time: a single sheet of e-paper, matte as a printed page, carrying it and nothing else. Everything else stays outside — because it can.",
-            "de": "Die Arbeit erreicht Sie auch hier — aber nie als leuchtendes Rechteck. Eine Stimme liest Ihnen das Briefing vor, während Ihre Augen ruhen; das Licht wird eine Nuance wärmer, wenn die Antwort eintrifft, auf die Sie warten. Und braucht ein Dokument wirklich Ihre Augen, reicht der Raum es Ihnen, wie er Ihnen alles reicht — eines nach dem anderen: als einzelnes Blatt E-Papier, matt wie eine gedruckte Seite, mit ihm und nichts sonst. Alles andere bleibt draußen — weil es das kann."
+            "en": "The heaviest tax on focused work has always been its paperwork: think for two hours, then spend one writing down what you thought. Here the room does the clerical part — it listens, decisions land in a log, the sketch on the wall becomes a figure, and when you leave, the summary and the open questions are already drafted and filed where the team will look tomorrow. You review the record instead of writing it. The same holds for two or three people working a problem in here: the session ends and leaves behind a document nobody had to write.",
+            "de": "Die schwerste Steuer auf konzentrierte Arbeit war immer ihr Papierkram: zwei Stunden denken, dann eine Stunde aufschreiben, was man gedacht hat. Hier übernimmt der Raum den Schreibdienst — er hört zu, Entscheidungen landen in einem Protokoll, die Skizze an der Wand wird zur Abbildung, und wenn Sie gehen, sind die Zusammenfassung und die offenen Fragen schon entworfen und dort abgelegt, wo das Team morgen nachsieht. Sie prüfen das Protokoll, statt es zu schreiben. Dasselbe gilt für zwei oder drei Menschen, die hier an einem Problem arbeiten: Die Sitzung endet und hinterlässt ein Dokument, das niemand schreiben musste.",
+            "fr": "L'impôt le plus lourd sur le travail concentré a toujours été sa paperasse : on pense deux heures, puis on en passe une à écrire ce qu'on a pensé. Ici, la pièce fait le travail de greffier — elle écoute, les décisions atterrissent dans un journal, le croquis au mur devient une figure, et quand vous sortez, le résumé et les questions ouvertes sont déjà rédigés et rangés là où l'équipe regardera demain. Vous relisez le compte rendu au lieu de l'écrire. Il en va de même pour deux ou trois personnes qui travaillent ici sur un problème : la séance se termine et laisse derrière elle un document que personne n'a eu à écrire."
           }
         },
         {
-          "pitch": -10,
-          "yaw": -3,
+          "pitch": 0,
+          "yaw": -72,
           "title": {
-            "en": "The right to be unreachable",
-            "de": "Das Recht, unerreichbar zu sein"
+            "en": "Well-lit, on purpose",
+            "de": "Hell — mit Absicht",
+            "fr": "Clair, à dessein"
           },
           "body": {
-            "en": "Settle into the felt and you are gone — not \"on do-not-disturb\", gone. The building holds your messages, reroutes the truly urgent to a colleague who agreed to catch it, and tells no one where you are. The room's one window is a porthole: the city stays visible, and stays outside. Unreachability used to be a status setting everyone ignored; here it is a wall, and walls don't take exceptions.",
-            "de": "Lassen Sie sich in den Filz sinken, und Sie sind fort — nicht auf \"Bitte nicht stören\", sondern fort. Das Haus hält Ihre Nachrichten zurück, leitet das wirklich Dringende an eine Kollegin weiter, die es übernehmen wollte, und verrät niemandem, wo Sie sind. Das eine Fenster des Raums ist ein Bullauge: Die Stadt bleibt sichtbar — und bleibt draußen. Unerreichbarkeit war früher ein Status, den alle ignorierten; hier ist sie eine Wand — und Wände kennen keine Ausnahmen."
+            "en": "The focus room of 2035 is not a dark cocoon. What makes it a focus room is not gloom but subtraction: daylight, wood, a plant, a door that closes — and a wall that carries one problem and nothing else. The panelling in front of you is the same quiet interactive surface as everywhere in the building; in this room, it simply refuses to show you more than one thing.",
+            "de": "Der Konzentrationsraum von 2035 ist kein dunkler Kokon. Was ihn zum Konzentrationsraum macht, ist nicht Dämmerung, sondern Subtraktion: Tageslicht, Holz, eine Pflanze, eine Tür, die schließt — und eine Wand, die ein Problem trägt und sonst nichts. Die Vertäfelung vor Ihnen ist dieselbe stille interaktive Fläche wie überall im Haus; in diesem Raum weigert sie sich nur, Ihnen mehr als eine Sache zu zeigen.",
+            "fr": "La pièce de concentration de 2035 n'est pas un cocon sombre. Ce qui en fait une pièce de concentration, ce n'est pas la pénombre mais la soustraction : la lumière du jour, le bois, une plante, une porte qui ferme — et un mur qui porte un seul problème et rien d'autre. Le lambris devant vous est la même surface interactive discrète que partout dans le bâtiment ; dans cette pièce, il refuse simplement de vous montrer plus d'une chose."
           }
         }
       ]
@@ -311,76 +363,89 @@
       "audio": {
         "narration": {
           "en": "audio/loom-en.mp3",
-          "de": "audio/loom-de.mp3"
+          "de": "audio/loom-de.mp3",
+          "fr": "audio/loom-fr.mp3"
         }
       },
       "name": {
         "en": "The Loom",
-        "de": "Der Webstuhl"
+        "de": "Der Webstuhl",
+        "fr": "Le Métier"
       },
       "narration": {
-        "en": "This is the deepest room, and the reason the office exists — the former main conference room, its long table and projector carried out in the same week. The surface that replaced them displays your data and reshapes itself under your fingers: a quarter's revenue becomes a landscape your hands can walk. Here you don't read your numbers — you work them.",
-        "de": "Dies ist der tiefste Raum — und der Grund, warum es dieses Büro gibt: der frühere große Besprechungsraum, dessen langer Tisch und Beamer in derselben Woche hinausgetragen wurden. Die Fläche, die an ihre Stelle trat, zeigt Ihre Daten und formt sich zugleich unter Ihren Fingern: Ein Quartalsumsatz wird zur Landschaft, die Ihre Hände abschreiten können. Hier lesen Sie Ihre Zahlen nicht — hier bearbeiten Sie sie."
+        "en": "The landform rising at the side of this room is the second technology: a haptic surface that displays data and lets you feel it. The essay calls it a table — here it has grown into a relief you can walk around, the quarter's numbers carved as contour lines. A small deviation becomes a bump under your fingertips, one you feel before you see it; press on it, and it opens down to the raw numbers.",
+        "de": "Die Geländeform, die an der Seite dieses Raums aufsteigt, ist die zweite Technologie: eine haptische Fläche, die Daten anzeigt und fühlen lässt. Der Essay nennt sie einen Tisch — hier ist sie zu einem Relief gewachsen, das man umrunden kann, die Zahlen des Quartals als Höhenlinien geschnitten. Eine kleine Abweichung wird zu einer kleinen Erhebung unter den Fingerspitzen, die man fühlt, bevor man sie sieht; drücken Sie darauf, und sie öffnet sich bis zu den Rohdaten.",
+        "fr": "La forme de terrain qui s'élève sur le côté de cette pièce est la seconde technologie : une surface haptique qui affiche les données et les fait sentir. L'essai parle d'une table — ici, elle a grandi en un relief dont on peut faire le tour, les chiffres du trimestre taillés en courbes de niveau. Un petit écart devient une petite bosse sous le bout des doigts, que l'on sent avant de la voir ; appuyez dessus, et elle s'ouvre jusqu'aux données brutes."
       },
       "hotspots": [
         {
-          "pitch": -28,
-          "yaw": -103,
+          "pitch": -33,
+          "yaw": -134,
           "title": {
-            "en": "The woven landscape",
-            "de": "Die gewebte Landschaft"
+            "en": "The data relief",
+            "de": "Das Datenrelief",
+            "fr": "Le relief de données"
           },
           "body": {
-            "en": "This landscape is a display and a material at once. Woven ridges and valleys render the quarter in light while thousands of actuators beneath the weave raise and lower the terrain — you don't stand at your data here, you stand in it. The anomaly in March is a dent deep enough to kneel at, and you feel it through your soles before you see it. Press into it and the data yields, opens, shows you what is underneath. Nothing here is a picture of your business; it is your business, made touchable.",
-            "de": "Diese Landschaft ist Anzeige und Material zugleich. Gewebte Grate und Täler zeichnen das Quartal in Licht, während Tausende Stellglieder unter dem Gewebe das Gelände heben und senken — Sie stehen hier nicht vor Ihren Daten, Sie stehen in ihnen. Die Anomalie im März ist eine Delle, tief genug, um sich zu ihr hinabzubeugen — und Sie spüren sie durch die Sohlen, bevor Sie sie sehen. Drücken Sie hinein, und die Daten geben nach, öffnen sich, zeigen Ihnen, was darunter liegt. Nichts hier ist ein Bild Ihres Unternehmens; es ist Ihr Unternehmen, berührbar gemacht."
+            "en": "This is the haptic data surface at its low, working edge — the table the essay describes, grown to the size of a landscape. A table is where people stand together: you walk up to it, lean over it, colleagues stand across from you, and the data lies between you the way engineering drawings lay between engineers for two centuries. A surface you stand around has no head. And none of this is fantasy: shape displays and mid-air haptics exist in laboratories today — 2035 needs integration, not invention.",
+            "de": "Das ist die haptische Datenfläche an ihrer niedrigen Arbeitskante — der Tisch, den der Essay beschreibt, gewachsen zur Größe einer Landschaft. Ein Tisch ist der Ort, an dem Menschen zusammenstehen: Man tritt heran, beugt sich darüber, Kollegen stehen gegenüber, und die Daten liegen dazwischen, wie zwei Jahrhunderte lang die Konstruktionszeichnungen zwischen den Ingenieuren lagen. Eine Fläche, um die man herumsteht, hat kein Kopfende. Und nichts davon ist Fantasie: Formdisplays und berührungslose Haptik existieren heute in Laboren — 2035 braucht Integration, keine Erfindung.",
+            "fr": "Voici la surface de données haptique le long de son bord bas, à hauteur de travail — la table que décrit l'essai, qui a pris la taille d'un paysage. Une table, c'est là où les gens se tiennent ensemble : on s'en approche, on se penche dessus, les collègues se tiennent en face, et les données sont posées entre vous comme les plans d'ingénierie sont restés posés entre les ingénieurs pendant deux siècles. Une surface autour de laquelle on se tient n'a pas de bout de table. Et rien de tout cela n'est de la science-fiction : les écrans à relief et les retours haptiques sans contact existent aujourd'hui dans les laboratoires — 2035 demande de l'intégration, pas une invention."
           }
         },
         {
-          "pitch": -44,
-          "yaw": 51,
+          "pitch": -8,
+          "yaw": -77,
           "title": {
-            "en": "Working data by hand",
-            "de": "Daten von Hand bearbeiten"
+            "en": "A bump you feel before you see it",
+            "de": "Eine Erhebung, die man fühlt, bevor man sie sieht",
+            "fr": "Une bosse que l'on sent avant de la voir"
           },
           "body": {
-            "en": "You don't query this landscape; you walk it, and you work it. Crouch and pinch a ridge to isolate a customer segment, sweep your palm along a valley to brush away the noise, press two datasets together and feel where they resist joining. Analysis stops being a report someone sends you and becomes a terrain you shape until it tells the truth — the difference between reading about wood and planing it.",
-            "de": "Diese Landschaft befragt man nicht — man durchwandert sie, und man bearbeitet sie. Gehen Sie in die Hocke und greifen Sie einen Grat, um ein Kundensegment zu isolieren; streichen Sie mit der Handfläche ein Tal entlang, um das Rauschen fortzuwischen; drücken Sie zwei Datensätze aneinander und spüren Sie, wo sie sich gegen die Verbindung sperren. Analyse ist dann kein Bericht mehr, den man Ihnen schickt, sondern ein Gelände, das Sie so lange formen, bis es die Wahrheit sagt — der Unterschied zwischen dem Lesen über Holz und dem Hobeln."
+            "en": "Sight is the channel we have saturated: every chart in the building competes for the same pair of eyes, and the eye reads a surface serially — it looks here, then there. The hand works in parallel: fingertips resolve height differences of a fraction of a millimetre without any attention at all. Sweep your palm across these high contour lines, and the one batch that drifted meets your hand as a ridge. You did not search for it; it found you.",
+            "de": "Das Sehen ist der Kanal, den wir gesättigt haben: Jedes Diagramm im Haus konkurriert um dasselbe Augenpaar, und das Auge liest eine Fläche seriell — es schaut hierhin, dann dorthin. Die Hand arbeitet parallel: Fingerspitzen erfassen Höhenunterschiede von Bruchteilen eines Millimeters, ganz ohne Aufmerksamkeit. Streichen Sie mit der Handfläche über diese hohen Höhenlinien, und die eine Charge, die abgedriftet ist, begegnet Ihrer Hand als Grat. Sie haben nicht danach gesucht; sie hat Sie gefunden.",
+            "fr": "La vue est le canal que nous avons saturé : chaque graphique du bâtiment se dispute la même paire d'yeux, et l'œil lit une surface de façon sérielle — il regarde ici, puis là. La main travaille en parallèle : le bout des doigts perçoit des différences de hauteur d'une fraction de millimètre sans la moindre attention. Passez la paume sur ces hautes courbes de niveau, et le seul lot qui a dérivé rencontre votre main comme une crête. Vous ne l'avez pas cherché ; il vous a trouvé."
           }
         },
         {
-          "pitch": -26,
-          "yaw": 141,
+          "pitch": -21,
+          "yaw": -113,
           "title": {
-            "en": "The first computer was a loom",
-            "de": "Der erste Computer war ein Webstuhl"
+            "en": "Press, and it opens",
+            "de": "Drücken Sie — und es öffnet sich",
+            "fr": "Appuyez, et cela s'ouvre"
           },
           "body": {
-            "en": "In 1804, Joseph-Marie Jacquard taught a loom to read punched cards, and those cards became the ancestor of every program ever written. The first machine that held data was a craft tool, worked by hand, its output a fabric you could touch. Computing did not begin as staring at glass; it began as weaving. This room isn't inventing the future of data work — it is returning it home.",
-            "de": "1804 brachte Joseph-Marie Jacquard einem Webstuhl bei, Lochkarten zu lesen — und diese Karten wurden zum Vorfahren jedes Programms, das je geschrieben wurde. Die erste Maschine, die Daten trug, war ein Handwerkszeug, von Hand geführt, ihr Ergebnis ein Stoff zum Anfassen. Das Rechnen begann nicht als Starren auf Glas; es begann als Weben. Dieser Raum erfindet die Zukunft der Datenarbeit nicht — er bringt sie nach Hause."
-          }
-        },
-        {
-          "pitch": 26,
-          "yaw": 46,
-          "title": {
-            "en": "Data through every sense",
-            "de": "Daten mit allen Sinnen"
-          },
-          "body": {
-            "en": "Sight is one channel, and it has carried everything alone for too long. Here a supply chain has a sound — you hear the stutter in logistics before any chart could show it. A market runs warm or cool under your hand; risk has a texture, smooth where the model is confident, grainy where it is guessing. Your body evolved to notice a dozen things at once, and this room finally gives it a dozen things.",
-            "de": "Das Auge ist ein Kanal — und es hat zu lange alles allein getragen. Hier hat eine Lieferkette einen Klang: Sie hören das Stocken in der Logistik, bevor irgendein Diagramm es zeigen könnte. Ein Markt läuft warm oder kühl unter Ihrer Hand; Risiko hat eine Textur — glatt, wo das Modell sicher ist, körnig, wo es rät. Ihr Körper ist dafür gebaut, ein Dutzend Dinge zugleich zu bemerken, und dieser Raum gibt ihm endlich ein Dutzend Dinge."
+            "en": "Find the bump, press on it, and the surface zooms it open where you stand — down to the raw numbers. What changes is who gets to find things: today an anomaly is found by the one person paid to stare at that chart, and then it travels the company as a screenshot. Here the deviation is public and physical — three people feel the same bump, disagree about it, and press it open together. The data stops being a report someone shows you and becomes a thing on the table, which is where hard questions have always been put.",
+            "de": "Finden Sie die Erhebung, drücken Sie darauf, und die Fläche öffnet sie dort, wo Sie stehen — bis hinunter zu den Rohdaten. Was sich ändert, ist, wer etwas finden darf: Heute findet eine Anomalie die eine Person, die dafür bezahlt wird, auf dieses Diagramm zu starren, und dann reist sie als Screenshot durch die Firma. Hier ist die Abweichung öffentlich und physisch — drei Menschen fühlen dieselbe Erhebung, sind sich uneins und drücken sie gemeinsam auf. Die Daten hören auf, ein Bericht zu sein, den man Ihnen zeigt, und werden zu einer Sache auf dem Tisch — dorthin gehörten schwierige Fragen schon immer.",
+            "fr": "Trouvez la bosse, appuyez dessus, et la surface l'ouvre là où vous êtes — jusqu'aux données brutes. Ce qui change, c'est qui a le droit de trouver : aujourd'hui, une anomalie est repérée par la seule personne payée pour fixer ce graphique, puis elle circule dans l'entreprise sous forme de capture d'écran. Ici, l'écart est public et physique — trois personnes sentent la même bosse, ne sont pas d'accord, et l'ouvrent ensemble. Les données cessent d'être un rapport qu'on vous montre et deviennent une chose posée sur la table — là où l'on a toujours posé les questions difficiles."
           }
         },
         {
           "pitch": 13,
-          "yaw": -26,
+          "yaw": 44,
           "title": {
-            "en": "Why hands beat dashboards",
-            "de": "Warum Hände Dashboards schlagen"
+            "en": "A workbench, generated",
+            "de": "Eine Werkbank, erzeugt",
+            "fr": "Un établi généré"
           },
           "body": {
-            "en": "A dashboard is watched; a landscape is worked. What your hands have shaped, your body remembers for years — touch files it where slides never reach. And terrain has no front row: everyone who steps onto the weave stands in the same numbers as an equal, no one holding the clicker. Even the bare end wall is a tool in waiting: when the team needs the world, it opens as a life-size, warm-toned transmission to the industrial site — the pump being drawn on the Painted Wall, out in the field under repair, the technician on site and the expert in this room working across one wall. The Loom makes data a place again.",
-            "de": "Ein Dashboard wird betrachtet; eine Landschaft wird bearbeitet. Was Ihre Hände geformt haben, behält Ihr Körper über Jahre — der Tastsinn legt es dort ab, wo keine Folie je hinreicht. Und Gelände kennt keine erste Reihe: Wer das Gewebe betritt, steht als Gleicher in denselben Zahlen, niemand hält den Presenter. Selbst die leere Stirnwand ist ein Werkzeug, das auf seinen Einsatz wartet: Wenn das Team die Welt braucht, öffnet sie sich als lebensgroße, warmtonige Übertragung zum Industriestandort — die Pumpe, die an der bemalten Wand entworfen wird, draußen im Feld in Reparatur; der Techniker vor Ort und die Expertin in diesem Raum arbeiten über eine gemeinsame Wand hinweg. Der Webstuhl macht aus Daten wieder einen Ort."
+            "en": "The interface here follows the same rule as the wall in the drawing room: it is generated, not installed. Lay a dataset on the relief and the room renders the workbench that dataset needs — sliders sized for fingers, filters for the columns that matter, a comparison view the moment you set two series side by side, spilling onto this end wall when the work needs more room. Nobody ever wrote 'haptic quarterly-report software'. The capability is composed at the moment of need and gone when you are done.",
+            "de": "Die Oberfläche folgt hier derselben Regel wie die Wand im Zeichenraum: Sie wird erzeugt, nicht installiert. Legen Sie einen Datensatz auf das Relief, und der Raum baut die Werkbank, die dieser Datensatz braucht — Regler in Fingergröße, Filter für die Spalten, auf die es ankommt, eine Vergleichsansicht in dem Moment, in dem Sie zwei Reihen nebeneinanderlegen — und wenn die Arbeit mehr Platz braucht, greift sie auf diese Stirnwand über. Niemand hat je eine 'haptische Quartalsbericht-Software' geschrieben. Die Fähigkeit entsteht im Moment des Bedarfs und ist fort, wenn Sie fertig sind.",
+            "fr": "L'interface suit ici la même règle que le mur de la salle de dessin : elle est générée, pas installée. Posez un jeu de données sur le relief et la pièce fait apparaître l'établi dont ce jeu de données a besoin — des curseurs à la taille des doigts, des filtres pour les colonnes qui comptent, une vue comparative dès que vous placez deux séries côte à côte — et quand le travail demande plus de place, elle déborde sur ce mur du fond. Personne n'a jamais écrit de « logiciel haptique de rapport trimestriel ». La capacité se compose au moment du besoin et disparaît quand vous avez terminé."
+          }
+        },
+        {
+          "pitch": 13,
+          "yaw": 136,
+          "title": {
+            "en": "Why this room is called the Loom",
+            "de": "Warum dieser Raum Webstuhl heißt",
+            "fr": "Pourquoi cette pièce s'appelle le Métier"
+          },
+          "body": {
+            "en": "Computing began at a machine you stood at: in 1804, Jacquard's loom read punched cards to weave patterns into silk, and Ada Lovelace explained the first computer by pointing back at it. Working with data began as a craft — patterns, hands, fabric you could touch — then disappeared behind glass for two generations. This room brings it back out. And the city in this window is the point: the offices of 2035 are the buildings standing out there now, one ten-year lease away — everything you have walked through is a retrofit question, not a construction project.",
+            "de": "Das Rechnen begann an einer Maschine, an der man stand: 1804 las Jacquards Webstuhl Lochkarten, um Muster in Seide zu weben, und Ada Lovelace erklärte den ersten Computer, indem sie auf ihn zurückverwies. Datenarbeit begann als Handwerk — Muster, Hände, Stoff zum Anfassen — und verschwand dann für zwei Generationen hinter Glas. Dieser Raum holt sie wieder hervor. Und die Stadt in diesem Fenster ist der Punkt: Die Büros von 2035 sind die Gebäude, die dort draußen jetzt stehen, einen Zehnjahresmietvertrag entfernt — alles, was Sie durchwandert haben, ist eine Umbaufrage, kein Bauprojekt.",
+            "fr": "L'informatique a commencé devant une machine où l'on se tenait debout : en 1804, le métier à tisser de Jacquard lisait des cartes perforées pour tisser des motifs dans la soie, et Ada Lovelace a expliqué le premier ordinateur en le désignant. Le travail des données a commencé comme un artisanat — des motifs, des mains, un tissu que l'on pouvait toucher — puis a disparu derrière le verre pendant deux générations. Cette pièce le fait ressortir. Et la ville dans cette fenêtre est tout le propos : les bureaux de 2035 sont les immeubles qui se dressent là dehors aujourd'hui, à un bail de dix ans d'ici — tout ce que vous venez de traverser est une question de rénovation, pas un projet de construction."
           }
         }
       ]

@@ -31,8 +31,22 @@
     menuOutro: $("menu-outro")
   };
 
+  var LANGS = ["en", "de", "fr"];
+
+  function defaultLang() {
+    var nav = (navigator.language || "en").toLowerCase();
+    for (var i = 0; i < LANGS.length; i++) {
+      if (nav.indexOf(LANGS[i]) === 0) return LANGS[i];
+    }
+    return "en";
+  }
+
+  function nextLang() {
+    return LANGS[(LANGS.indexOf(state.lang) + 1) % LANGS.length];
+  }
+
   var state = {
-    lang: (navigator.language || "en").toLowerCase().indexOf("de") === 0 ? "de" : "en",
+    lang: defaultLang(),   // "en" | "de" | "fr", from the browser's language
     index: 0,              // current scene index
     content: null,
     visited: new Set(),
@@ -158,9 +172,11 @@
     document.querySelectorAll("[data-ui]").forEach(function (el) {
       el.textContent = uiString(el.getAttribute("data-ui"));
     });
-    var other = (state.lang === "en" ? "de" : "en").toUpperCase();
-    els.langLanding.textContent = other;
-    els.langHud.textContent = other;
+    // The toggle is a cycle through LANGS; its label shows the language a
+    // click would switch to.
+    var next = nextLang().toUpperCase();
+    els.langLanding.textContent = next;
+    els.langHud.textContent = next;
     els.soundToggle.textContent = uiString(state.soundOn ? "soundOn" : "soundOff");
     els.menuOutro.textContent = uiString("outro");
     if (!state.content) return;
@@ -171,7 +187,7 @@
   }
 
   function toggleLang() {
-    state.lang = state.lang === "en" ? "de" : "en";
+    state.lang = nextLang();
     // Mid-scene language switch: stop the voiceover, don't replay.
     stopNarrationAudio();
     applyLang();

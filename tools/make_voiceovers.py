@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """Generate narration voiceovers for the Office of the Future walkthrough.
 
-Reads scene narrations (en + de) from site/content.json and synthesizes one
-MP3 per scene per language via the ElevenLabs text-to-speech API, writing to
-the exact paths referenced by each scene's audio.narration entry
+Reads scene narrations (en + de + fr) from site/content.json and synthesizes
+one MP3 per scene per language via the ElevenLabs text-to-speech API, writing
+to the exact paths referenced by each scene's audio.narration entry
 (site/audio/<scene-id>-<lang>.mp3).
 
 Key resolution: ELEVENLABS_API_KEY env var, else /home/af/api_keys/11labs.
 The key is only ever sent as the xi-api-key header — never printed or logged.
 
 Usage:
-    python3 tools/make_voiceovers.py            # all scenes, both languages
-    python3 tools/make_voiceovers.py --only den # a single scene, both languages
+    python3 tools/make_voiceovers.py            # all scenes, all languages
+    python3 tools/make_voiceovers.py --only den # a single scene, all languages
 """
 
 import argparse
@@ -24,8 +24,8 @@ import urllib.error
 import urllib.request
 
 # Voice: "George" — ElevenLabs premade narrative voice. Warm, calm, middle-aged
-# British narrator with a documentary register; renders cleanly in both English
-# and German under eleven_multilingual_v2. (The provided key lacks the
+# British narrator with a documentary register; renders cleanly in English,
+# German and French under eleven_multilingual_v2. (The provided key lacks the
 # voices_read permission, so this premade ID is pinned rather than discovered
 # via GET /v1/voices.)
 VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"
@@ -39,7 +39,7 @@ VOICE_SETTINGS = {
 
 API_URL = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}"
 KEY_FILE = "/home/af/api_keys/11labs"
-LANGUAGES = ("en", "de")
+LANGUAGES = ("en", "de", "fr")
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_DIR = os.path.join(REPO_ROOT, "site")
