@@ -158,14 +158,14 @@ blue screen.
 
 **Main prompt:**
 
-> A bright former conference room on a renovated 1990s office floor, year
-> 2035, from standing eye height. At its center one large waist-high table,
-> the size of a billiard table: its matte dark-bronze surface is a physical
-> topographic relief of gentle ridges and valleys, like a landscape model
-> carved from wood and metal, with one small distinct bump, lit softly from
-> within by warm amber contour lines, paper-matte, no glare. Chairs pushed back.
-> Renovated concrete ceiling, light wood
-> floor, tall windows with city buildings outside, bright daylight.
+> Standing directly at the edge of a large waist-high data table that fills
+> the foreground, in a bright former conference room of a renovated 1990s
+> office building, year 2035. The tabletop stretches away from the camera:
+> a matte dark-bronze surface sculpted as a physical topographic relief of
+> gentle ridges and valleys, like a precise landscape model of wood and
+> metal, one small distinct bump, soft warm amber contour lines glowing
+> between the ridges, no glare. Light wood floor, renovated concrete
+> ceiling, tall windows with city buildings, bright daylight.
 > Photorealistic, precise, modern.
 
 **Negative prompt:**
