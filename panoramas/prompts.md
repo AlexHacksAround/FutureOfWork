@@ -54,7 +54,7 @@ excludes lobby furniture, not the lobby itself).
 
 ## 1. The Approach
 
-**Style preset:** Realistic — or Advanced (no preset) if the preset over-stylizes the street outside.
+**Style preset:** Realistic — or Advanced (no preset) if the preset over-stylizes the street outside. Iteration note: with signage excluded, the tram stop may need a few re-rolls to read as a tram stop (shelter, platform edge, overhead wires) rather than ambiguous street furniture.
 
 **Main prompt:**
 
@@ -109,11 +109,11 @@ excludes lobby furniture, not the lobby itself).
 
 ## 4. The Den
 
-**Style preset:** Interior Views — or Advanced (no preset). Keep it dark; reject any bright generation.
+**Style preset:** Interior Views — or Advanced (no preset). Keep it dark; reject any bright generation. Iteration note: this tiny close-range volume is the hardest equirectangular brief — reject warped or impossible niche geometry and re-roll.
 
 **Main prompt:**
 
-> Tiny felt-and-wood alcove fitted between two raw concrete columns on a renovated office floor, year 2035, from seated eye height inside the niche, barely wider than outstretched arms. A curved felt-lined wall wraps behind a low wooden bench draped in thick lambswool; a heavy felt curtain half-drawn across the low opening; concrete column faces visible at the niche edges. On the bench a single matte sheet of e-paper, pale as a printed page, unlit. One pool of candle-warm light from a hidden source above, deep soft shadows. Photorealistic, enclosed, profoundly quiet.
+> Tiny felt-and-wood alcove fitted between two raw concrete columns on a renovated 1990s office floor, year 2035, from seated eye height inside the niche, barely wider than outstretched arms. A curved felt-lined wall wraps behind a low wooden bench draped in thick lambswool; a heavy felt curtain half-drawn across the low opening; concrete column faces visible at the niche edges. On the bench a single matte sheet of e-paper, pale as a printed page, unlit. One pool of candle-warm light from a hidden source above, deep soft shadows. Photorealistic, enclosed, profoundly quiet.
 
 **Negative prompt:**
 
