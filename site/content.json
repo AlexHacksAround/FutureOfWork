@@ -72,7 +72,7 @@
       },
       "hotspots": [
         {
-          "pitch": -2,
+          "pitch": -6,
           "yaw": 0,
           "title": {
             "en": "The guest commons",
@@ -97,7 +97,7 @@
         },
         {
           "pitch": 1,
-          "yaw": -70,
+          "yaw": -103,
           "title": {
             "en": "Why work starts at street level",
             "de": "Warum Arbeit im Erdgeschoss beginnt"
@@ -129,8 +129,8 @@
       },
       "hotspots": [
         {
-          "pitch": -4,
-          "yaw": 0,
+          "pitch": -10,
+          "yaw": -5,
           "title": {
             "en": "The fire at the center",
             "de": "Das Feuer in der Mitte"
@@ -141,8 +141,8 @@
           }
         },
         {
-          "pitch": 8,
-          "yaw": 70,
+          "pitch": 13,
+          "yaw": 39,
           "title": {
             "en": "A room that hears the mood",
             "de": "Ein Raum, der die Stimmung hört"
@@ -153,8 +153,8 @@
           }
         },
         {
-          "pitch": 2,
-          "yaw": 145,
+          "pitch": 5,
+          "yaw": 116,
           "title": {
             "en": "Hosts, not gatekeepers",
             "de": "Gastgeber statt Pförtner"
@@ -165,8 +165,8 @@
           }
         },
         {
-          "pitch": -1,
-          "yaw": -75,
+          "pitch": -5,
+          "yaw": -57,
           "title": {
             "en": "Bread, coffee, ritual",
             "de": "Brot, Kaffee, Ritual"
@@ -198,8 +198,8 @@
       },
       "hotspots": [
         {
-          "pitch": 5,
-          "yaw": 0,
+          "pitch": 1,
+          "yaw": 12,
           "title": {
             "en": "The wall that draws with you",
             "de": "Die Wand, die mitzeichnet"
@@ -210,8 +210,8 @@
           }
         },
         {
-          "pitch": 0,
-          "yaw": 70,
+          "pitch": 23,
+          "yaw": -87,
           "title": {
             "en": "Layers, like a cave",
             "de": "Schichten wie in einer Höhle"
@@ -222,8 +222,8 @@
           }
         },
         {
-          "pitch": -3,
-          "yaw": 145,
+          "pitch": 13,
+          "yaw": 116,
           "title": {
             "en": "Clay and mineral light",
             "de": "Lehm und Mineralpigment"
@@ -234,8 +234,8 @@
           }
         },
         {
-          "pitch": 7,
-          "yaw": -75,
+          "pitch": -13,
+          "yaw": 77,
           "title": {
             "en": "Rituals of the room",
             "de": "Die Rituale des Raums"
@@ -267,7 +267,7 @@
       },
       "hotspots": [
         {
-          "pitch": -5,
+          "pitch": 39,
           "yaw": 0,
           "title": {
             "en": "The shape of shelter",
@@ -279,8 +279,8 @@
           }
         },
         {
-          "pitch": 3,
-          "yaw": 70,
+          "pitch": -45,
+          "yaw": -116,
           "title": {
             "en": "Information without screens",
             "de": "Information ohne Bildschirme"
@@ -291,8 +291,8 @@
           }
         },
         {
-          "pitch": 0,
-          "yaw": -70,
+          "pitch": -10,
+          "yaw": -3,
           "title": {
             "en": "The right to be unreachable",
             "de": "Das Recht, unerreichbar zu sein"
@@ -324,8 +324,8 @@
       },
       "hotspots": [
         {
-          "pitch": -5,
-          "yaw": 0,
+          "pitch": -28,
+          "yaw": -103,
           "title": {
             "en": "The workbench",
             "de": "Die Werkbank"
@@ -336,8 +336,8 @@
           }
         },
         {
-          "pitch": -2,
-          "yaw": 70,
+          "pitch": -44,
+          "yaw": 51,
           "title": {
             "en": "Working data by hand",
             "de": "Daten von Hand bearbeiten"
@@ -348,8 +348,8 @@
           }
         },
         {
-          "pitch": 6,
-          "yaw": 140,
+          "pitch": -26,
+          "yaw": 141,
           "title": {
             "en": "The first computer was a loom",
             "de": "Der erste Computer war ein Webstuhl"
@@ -360,8 +360,8 @@
           }
         },
         {
-          "pitch": 4,
-          "yaw": -140,
+          "pitch": 26,
+          "yaw": 46,
           "title": {
             "en": "Data through every sense",
             "de": "Daten mit allen Sinnen"
@@ -372,8 +372,8 @@
           }
         },
         {
-          "pitch": 0,
-          "yaw": -70,
+          "pitch": 13,
+          "yaw": -26,
           "title": {
             "en": "Why hands beat dashboards",
             "de": "Warum Hände Dashboards schlagen"
