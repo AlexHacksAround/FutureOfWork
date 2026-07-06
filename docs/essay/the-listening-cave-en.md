@@ -16,7 +16,7 @@ Each step in that line changed who could work with information and how fast it m
 
 ## A universal interface
 
-That is what is different now. Thanks to the rapid advancement in natural language processing and the rise of large language models, information systems can not only understand and produce natural language — they can become a universal and dynamic interface to programs, functions, data and other information systems.
+With new technologies we will be able to create a next evolution of interaction and access to information. That is what is different now. Thanks to the rapid advancement in natural language processing and the rise of large language models, information systems can not only understand and produce natural language — they can become a universal and dynamic interface to programs, functions, data and other information systems.
 
 Follow that one step further and the idea of "software" itself comes apart. Today an application is a fixed set of screens, designed years before your moment of need, identical for everyone. A system that understands both language and task does not need pre-built screens. It can generate the interface at the moment the task appears — a form for exactly the decision at hand, a chart of exactly the comparison under argument, controls for exactly the thing being adjusted — and discard it when the task is done. The interface stops being a product somebody shipped and becomes an answer the system gives. Keep that idea in hand; both technologies at the heart of this essay depend on it.
 
@@ -28,13 +28,13 @@ Close your eyes and picture "the office of the future." Be honest about what app
 
 A glass tower, probably. A lobby the temperature of a server room. A hologram receptionist flickering politely at the door, and somewhere behind it a humanoid assistant gliding across polished stone with a tray. Walls of dashboards, everything rendered in that particular blue that no one ever chose but everyone accepts. Perhaps an avatar of a colleague, beamed into a meeting room, smiling at nothing.
 
-This picture is not a forecast. It is a rerun. It is the office of the future as imagined around 1968, re-rendered every decade since with better graphics and the same assumptions: that progress means more screens, more glass, more glow, and machines that imitate people. It extrapolates the recent past and calls the result tomorrow.
+This picture is not a forecast. It is a rerun. It is the office of the future as imagined in the late 1960s, re-rendered every decade since with better graphics and the same assumptions: that progress means more screens, more glass, more glow, and machines that imitate people. It extrapolates the recent past and calls the result tomorrow.
 
 The actual history of technology tells a different story, and it was written down clearly in 1991, when Mark Weiser of Xerox PARC opened the founding essay of ubiquitous computing with a sentence worth pinning above every workplace-strategy meeting: "The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it."[^3] Weiser and his colleagues called the goal calm technology — systems that live in the periphery of attention and step forward only when needed, the way a good room does, rather than shouting for focus the way every screen must.
 
 Look around and you will see that disappearance, not accumulation, is what mature technology does. Your home contains dozens of electric motors and you could not point to most of them. Writing covers every surface of your life and you do not call it "text technology." The technologies that changed us most are the ones we stopped noticing. The glowing rectangle is not the end state of computing; it is computing's adolescence: the stage where the machine still demands that you look at it.
 
-And the machines that imitate people are a dead end of a different kind. A face that is almost a face triggers alarm, not trust. We have known about the uncanny valley for fifty years, and no rendering budget has ever crossed it. Worse, an artificial colleague makes a social promise it cannot keep. It asks for the attention we owe to persons and returns the judgment of a system. A hologram at the front desk is a receptionist minus everything that made them good at their job. The uncanny valley is not an engineering gap waiting to be closed. It is a signpost that says: wrong direction.
+And the machines that imitate people are a dead end of a different kind. A face that is almost a face triggers alarm, not trust. We have known about the uncanny valley for fifty years[^12], and no rendering budget has ever crossed it. Worse, an artificial colleague makes a social promise it cannot keep. It asks for the attention we owe to persons and returns the judgment of a system. A hologram at the front desk is a receptionist minus everything that made them good at their job. The uncanny valley is not an engineering gap waiting to be closed. It is a signpost that says: wrong direction.
 
 So reject the rerun, all of it — the glass, the glow, the dashboards turned into wallpaper, the synthetic staff. The question for 2035 is not what technology to put into the office. It is what the technology finally allows to disappear. What remains when it does is the subject of the rest of this essay: two technologies — a wall you can write on and a table you can feel — and the rooms they make possible. Each of those rooms exists today as a place you can walk through, in 360 degrees, at the link in its chapter.
 
@@ -50,7 +50,7 @@ But what does this mean for office buildings? What will our workplaces look like
 
 *Walk this room: https://futureofwork.byatw.com/#painted-wall*
 
-The first technology is the interactive wall. The wall can display information and is touchable; the room listens as well and can answer. Imagine rooms in which you can lounge, stand or sit, take in information on all the walls, and work on that data together as a group.
+The first technology is the interactive wall. The wall can display information and is touchable; the room listens as well and can answer. Imagine rooms in which you can lounge, stand or sit, ingest information on all the walls, and work on that data together as a group.
 
 Picture one such room. Three of its walls work. They do not glow — the surface is matte and reads like paper in daylight, and when nobody is working, the walls are simply walls: wood, plaster, a window onto the street. Then a team walks in with a problem — say, the new pump is late. The walls take the work. The schedule spreads across one. The pump stands on another as a full-scale engineering drawing, full scale because the wall is the one display large enough for it. The open questions collect on the third, in handwriting, because a finger is a pen here.
 
@@ -74,7 +74,7 @@ And why touch? Because sight is the channel we have saturated. Every chart in th
 
 None of this is fantasy. Hiroshi Ishii's group at MIT has pursued exactly this goal for over a decade under the name radical atoms: material whose shape computation can change.[^5] Their inFORM table renders data in physical relief with a bed of motorised pins.[^6] Its successor Materiable gives such a surface simulated material behaviour, so that it yields, springs back or resists when you press it.[^7] And in Bristol, researchers showed in 2013 that focused ultrasound can place pressure points on a bare hand in mid-air, above an ordinary surface.[^8] The pieces of the haptic table exist in laboratories today. What 2035 requires is not an invention. It is integration, and nine years of engineering.
 
-There is also an old debt repaid at this table. Computing began at one. The loom Jacquard built in 1804 read punched cards to weave patterns into silk;[^9] those cards became the memory of the first data machines, and Ada Lovelace explained the first computer by pointing back at the loom: the Analytical Engine "weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."[^10] Working with data began as a craft — patterns, hands, a machine you stood at. Then it disappeared behind glass for eighty years. The table brings it back out.
+There is also an old debt repaid at this table. Computing began at one. The loom Jacquard built in 1804 read punched cards to weave patterns into silk;[^9] those cards went on to hold the memory of the earliest data machines, and Ada Lovelace explained the first computer by pointing back at the loom: the Analytical Engine "weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."[^10] Working with data began as a craft — patterns, hands, a machine you stood at. Then it disappeared behind glass for two generations. The table brings it back out.
 
 The interface follows the same rule as the wall: it is generated, not installed. Lay a dataset on the table and the table renders the workbench that dataset needs — sliders sized for fingers, filters for the columns that matter, a comparison view the moment you set two series side by side. Nobody ever wrote "haptic quarterly-report software." The capability is composed at the moment of need and gone when you are done.
 
@@ -119,7 +119,7 @@ The office described here already exists in pixels. You can walk through it, in 
 ## Sources
 
 [^1]: Lascaux, official site of the French Ministry of Culture. https://archeologie.culture.gouv.fr/lascaux/en
-[^2]: U.S. Census Bureau, "The Hollerith Tabulator" — punch-card tabulation of the 1890 census. https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html
+[^2]: U.S. Census Bureau, "The Hollerith Tabulator" — punch-card tabulation of the 1890 census. https://www.britannica.com/biography/Herman-Hollerith
 [^3]: Mark Weiser, "The Computer for the 21st Century," *Scientific American*, September 1991. https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf
 [^4]: Microsoft PixelSense (launched in 2008 as "Microsoft Surface"), the interactive table computer. https://en.wikipedia.org/wiki/Microsoft_PixelSense
 [^5]: Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, Jean-Baptiste Labrune, "Radical Atoms: Beyond Tangible Bits, Toward Transformable Materials," *interactions* 19(1), 2012. https://dl.acm.org/doi/10.1145/2065327.2065337
@@ -129,3 +129,4 @@ The office described here already exists in pixels. You can walk through it, in 
 [^9]: "Jacquard loom," *Encyclopædia Britannica*. https://www.britannica.com/technology/Jacquard-loom
 [^10]: Ada Lovelace, translator's notes to L. F. Menabrea, "Sketch of the Analytical Engine Invented by Charles Babbage," 1843. https://www.fourmilab.ch/babbage/sketch.html
 [^11]: Ethan S. Bernstein, Stephen Turban, "The impact of the 'open' workspace on human collaboration," *Philosophical Transactions of the Royal Society B* 373, 2018. https://royalsocietypublishing.org/doi/10.1098/rstb.2017.0239
+[^12]: Masahiro Mori, "The Uncanny Valley" (1970; authorized English translation, IEEE Spectrum, 2012). https://spectrum.ieee.org/the-uncanny-valley
