@@ -82,7 +82,8 @@ def parse_prompts(path):
         text = f.read()
 
     scenes = {}
-    section_re = re.compile(r"^## \d+\. The (.+?)\s*$", re.MULTILINE)
+    # heading may carry a parenthesized role suffix, e.g. "## 2. The Hearth (Interaction room)"
+    section_re = re.compile(r"^## \d+\. The (.+?)(?:\s*\(.*\))?\s*$", re.MULTILINE)
     matches = list(section_re.finditer(text))
     for i, m in enumerate(matches):
         body = text[m.end(): matches[i + 1].start() if i + 1 < len(matches) else len(text)]
