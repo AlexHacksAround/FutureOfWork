@@ -274,8 +274,8 @@
             "de": "Die Form der Geborgenheit"
           },
           "body": {
-            "en": "The curve at your back is doing something ancient: a person whose back is covered thinks differently — slower pulse, longer attention, steadier judgment. The Den is dim because focus is nocturnal, and small because thought needs walls to press against. This is not a booth parked in an open plan; it is carpentry fitted between the building's own columns — architecture admitting what bodies have always needed.",
-            "de": "Die Wölbung in Ihrem Rücken tut etwas Uraltes: Ein Mensch mit gedecktem Rücken denkt anders — langsamerer Puls, längere Aufmerksamkeit, ruhigeres Urteil. Die Klause ist dunkel, weil Konzentration ein Nachttier ist, und klein, weil Gedanken Wände brauchen, an die sie sich lehnen können. Das ist keine Kabine, die man in eine offene Fläche gestellt hat — das ist Schreinerarbeit zwischen den Stützen des Hauses: Architektur, die zugibt, was Körper immer gebraucht haben."
+            "en": "The curve at your back is doing something ancient: a person whose back is covered thinks differently — slower pulse, longer attention, steadier judgment. The Den is dim because focus is nocturnal, and small because thought needs walls to press against. This is not a booth parked in an open plan; it is thick wool felt sculpted into the space between the building's own columns, its cushioned niches shaped to the body that will settle into them — architecture admitting what bodies have always needed.",
+            "de": "Die Wölbung in Ihrem Rücken tut etwas Uraltes: Ein Mensch mit gedecktem Rücken denkt anders — langsamerer Puls, längere Aufmerksamkeit, ruhigeres Urteil. Die Klause ist dunkel, weil Konzentration ein Nachttier ist, und klein, weil Gedanken Wände brauchen, an die sie sich lehnen können. Das ist keine Kabine, die man in eine offene Fläche gestellt hat — das ist dicker Wollfilz, in den Raum zwischen den Stützen des Hauses modelliert, seine gepolsterten Nischen dem Körper nachgeformt, der sich in sie betten wird: Architektur, die zugibt, was Körper immer gebraucht haben."
           }
         },
         {
@@ -286,8 +286,8 @@
             "de": "Information ohne Bildschirme"
           },
           "body": {
-            "en": "Work still reaches you here, but never as a glowing rectangle. A voice reads you the brief while your eyes rest; the light warms a shade when the answer you have been waiting for arrives; a single sheet of e-paper on the bench holds the one document that matters today, matte as a printed page. Everything else stays outside — because it can.",
-            "de": "Die Arbeit erreicht Sie auch hier — aber nie als leuchtendes Rechteck. Eine Stimme liest Ihnen das Briefing vor, während Ihre Augen ruhen; das Licht wird eine Nuance wärmer, wenn die Antwort eintrifft, auf die Sie warten; ein einzelnes Blatt E-Papier auf der Bank trägt das eine Dokument, das heute zählt, matt wie eine gedruckte Seite. Alles andere bleibt draußen — weil es das kann."
+            "en": "Work still reaches you here, but never as a glowing rectangle. A voice reads you the brief while your eyes rest; the light warms a shade when the answer you have been waiting for arrives. And when a document truly needs your eyes, the room hands it to you the way it hands you everything — one thing at a time: a single sheet of e-paper, matte as a printed page, carrying the one document that matters today. Everything else stays outside — because it can.",
+            "de": "Die Arbeit erreicht Sie auch hier — aber nie als leuchtendes Rechteck. Eine Stimme liest Ihnen das Briefing vor, während Ihre Augen ruhen; das Licht wird eine Nuance wärmer, wenn die Antwort eintrifft, auf die Sie warten. Und braucht ein Dokument wirklich Ihre Augen, reicht der Raum es Ihnen, wie er Ihnen alles reicht — eines nach dem anderen: als einzelnes Blatt E-Papier, matt wie eine gedruckte Seite, mit dem einen Dokument, das heute zählt. Alles andere bleibt draußen — weil es das kann."
           }
         },
         {
@@ -298,8 +298,8 @@
             "de": "Das Recht, unerreichbar zu sein"
           },
           "body": {
-            "en": "When you pull the felt curtain closed, you are gone — not \"on do-not-disturb\", gone. The building holds your messages, reroutes the truly urgent to a colleague who agreed to catch it, and tells no one where you are. Unreachability used to be a status setting everyone ignored; here it is a wall, and walls don't take exceptions.",
-            "de": "Wenn Sie den Filzvorhang zuziehen, sind Sie fort — nicht auf \"Bitte nicht stören\", sondern fort. Das Haus hält Ihre Nachrichten zurück, leitet das wirklich Dringende an eine Kollegin weiter, die es übernehmen wollte, und verrät niemandem, wo Sie sind. Unerreichbarkeit war früher ein Status, den alle ignorierten; hier ist sie eine Wand — und Wände kennen keine Ausnahmen."
+            "en": "Settle into the felt and you are gone — not \"on do-not-disturb\", gone. The building holds your messages, reroutes the truly urgent to a colleague who agreed to catch it, and tells no one where you are. The room's one window is a porthole: the city stays visible, and stays outside. Unreachability used to be a status setting everyone ignored; here it is a wall, and walls don't take exceptions.",
+            "de": "Lassen Sie sich in den Filz sinken, und Sie sind fort — nicht auf \"Bitte nicht stören\", sondern fort. Das Haus hält Ihre Nachrichten zurück, leitet das wirklich Dringende an eine Kollegin weiter, die es übernehmen wollte, und verrät niemandem, wo Sie sind. Das eine Fenster des Raums ist ein Bullauge: Die Stadt bleibt sichtbar — und bleibt draußen. Unerreichbarkeit war früher ein Status, den alle ignorierten; hier ist sie eine Wand — und Wände kennen keine Ausnahmen."
           }
         }
       ]
@@ -327,12 +327,12 @@
           "pitch": -28,
           "yaw": -103,
           "title": {
-            "en": "The workbench",
-            "de": "Die Werkbank"
+            "en": "The woven landscape",
+            "de": "Die gewebte Landschaft"
           },
           "body": {
-            "en": "This surface is a display and a material at once. It renders the trend line in light while thousands of tiny actuators raise and lower it beneath your palms — so the anomaly in March is a dent you feel before you see it. Press into it and the data yields, opens, shows you what is underneath. Nothing here is a picture of your business; it is your business, made touchable.",
-            "de": "Diese Fläche ist Anzeige und Material zugleich. Sie zeichnet die Trendlinie in Licht, während Tausende winziger Stellglieder sie unter Ihren Handflächen heben und senken — die Anomalie im März ist eine Delle, die Sie spüren, bevor Sie sie sehen. Drücken Sie hinein, und die Daten geben nach, öffnen sich, zeigen Ihnen, was darunter liegt. Nichts hier ist ein Bild Ihres Unternehmens; es ist Ihr Unternehmen, berührbar gemacht."
+            "en": "This landscape is a display and a material at once. Woven ridges and valleys render the quarter in light while thousands of actuators beneath the weave raise and lower the terrain — you don't stand at your data here, you stand in it. The anomaly in March is a dent deep enough to kneel at, and you feel it through your soles before you see it. Press into it and the data yields, opens, shows you what is underneath. Nothing here is a picture of your business; it is your business, made touchable.",
+            "de": "Diese Landschaft ist Anzeige und Material zugleich. Gewebte Grate und Täler zeichnen das Quartal in Licht, während Tausende Stellglieder unter dem Gewebe das Gelände heben und senken — Sie stehen hier nicht vor Ihren Daten, Sie stehen in ihnen. Die Anomalie im März ist eine Delle, tief genug, um sich zu ihr hinabzubeugen — und Sie spüren sie durch die Sohlen, bevor Sie sie sehen. Drücken Sie hinein, und die Daten geben nach, öffnen sich, zeigen Ihnen, was darunter liegt. Nichts hier ist ein Bild Ihres Unternehmens; es ist Ihr Unternehmen, berührbar gemacht."
           }
         },
         {
@@ -343,8 +343,8 @@
             "de": "Daten von Hand bearbeiten"
           },
           "body": {
-            "en": "You don't query this surface; you work it. Pinch a ridge to isolate a customer segment, sweep your palm to brush away the noise, press two datasets together and feel where they resist joining. Analysis stops being a report someone sends you and becomes a material you shape until it tells the truth — the difference between reading about wood and planing it.",
-            "de": "Diese Fläche befragt man nicht, man bearbeitet sie. Greifen Sie einen Grat, um ein Kundensegment zu isolieren; wischen Sie mit der Handfläche das Rauschen fort; drücken Sie zwei Datensätze aneinander und spüren Sie, wo sie sich gegen die Verbindung sperren. Analyse ist dann kein Bericht mehr, den man Ihnen schickt, sondern ein Material, das Sie so lange formen, bis es die Wahrheit sagt — der Unterschied zwischen dem Lesen über Holz und dem Hobeln."
+            "en": "You don't query this landscape; you walk it, and you work it. Crouch and pinch a ridge to isolate a customer segment, sweep your palm along a valley to brush away the noise, press two datasets together and feel where they resist joining. Analysis stops being a report someone sends you and becomes a terrain you shape until it tells the truth — the difference between reading about wood and planing it.",
+            "de": "Diese Landschaft befragt man nicht — man durchwandert sie, und man bearbeitet sie. Gehen Sie in die Hocke und greifen Sie einen Grat, um ein Kundensegment zu isolieren; streichen Sie mit der Handfläche ein Tal entlang, um das Rauschen fortzuwischen; drücken Sie zwei Datensätze aneinander und spüren Sie, wo sie sich gegen die Verbindung sperren. Analyse ist dann kein Bericht mehr, den man Ihnen schickt, sondern ein Gelände, das Sie so lange formen, bis es die Wahrheit sagt — der Unterschied zwischen dem Lesen über Holz und dem Hobeln."
           }
         },
         {
@@ -379,8 +379,8 @@
             "de": "Warum Hände Dashboards schlagen"
           },
           "body": {
-            "en": "A dashboard is watched; a table is worked. What your hands have shaped, your body remembers for years — touch files it where slides never reach. And a table has no front row: six people stand around this surface as equals, all touching the same numbers, no one holding the clicker. The projector that once hung here — its mounting plate still marks the ceiling — made data a performance. The Loom makes it a table again.",
-            "de": "Ein Dashboard wird betrachtet; an einem Tisch wird gearbeitet. Was Ihre Hände geformt haben, behält Ihr Körper über Jahre — der Tastsinn legt es dort ab, wo keine Folie je hinreicht. Und ein Tisch hat keine erste Reihe: Sechs Menschen stehen als Gleiche um diese Fläche, alle berühren dieselben Zahlen, niemand hält den Presenter. Der Beamer, der hier einmal hing — seine Halterung sitzt noch im Beton der Decke —, hat aus Daten eine Aufführung gemacht. Der Webstuhl macht sie wieder zu einem Tisch."
+            "en": "A dashboard is watched; a landscape is worked. What your hands have shaped, your body remembers for years — touch files it where slides never reach. And terrain has no front row: everyone who steps onto the weave stands in the same numbers as an equal, no one holding the clicker. Even the bare end wall is a tool in waiting: when the team needs the world, it opens as a life-size, warm-toned transmission to the industrial site — the pump being drawn on the Painted Wall, here under repair in the field, the technician there and the expert here working across one wall. The Loom makes data a place again.",
+            "de": "Ein Dashboard wird betrachtet; eine Landschaft wird bearbeitet. Was Ihre Hände geformt haben, behält Ihr Körper über Jahre — der Tastsinn legt es dort ab, wo keine Folie je hinreicht. Und Gelände kennt keine erste Reihe: Wer das Gewebe betritt, steht als Gleicher in denselben Zahlen, niemand hält den Presenter. Selbst die leere Stirnwand ist ein Werkzeug, das auf seinen Einsatz wartet: Wenn das Team die Welt braucht, öffnet sie sich als lebensgroße, warmtonige Übertragung zum Industriestandort — die Pumpe, die an der bemalten Wand entworfen wird, hier draußen in Reparatur; der Techniker dort und die Expertin hier arbeiten über eine gemeinsame Wand hinweg. Der Webstuhl macht aus Daten wieder einen Ort."
           }
         }
       ]
