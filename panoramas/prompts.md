@@ -144,23 +144,23 @@ negative prompt below.
 
 **Main prompt:**
 
-> Tiny reading alcove lined floor-to-ceiling in dark charcoal-brown wool felt
-> panels, inside a renovated 1990s office floor, year 2035, from seated eye
-> height, barely wider than outstretched arms. A low bench of dark oiled oak
-> draped with a thick cream lambswool fleece; a heavy dark felt curtain
-> half-drawn across the low opening; raw concrete visible at the edges. On
-> the bench one matte white sheet of e-paper, unlit, like a printed page.
-> Dim moody lighting, one warm reading lamp glow from above, sharp focus,
-> crisp fabric texture. Photorealistic, enclosed, quiet.
+> A tiny dark cocoon-like reading alcove, every wall upholstered in
+> chocolate-brown wool felt, inside a renovated 1990s office building, year
+> 2035, from seated eye height, barely wider than outstretched arms. Dark
+> wool carpet; a low oak bench draped with a cream lambswool fleece; a heavy
+> brown felt curtain half-open across the low doorway; on the bench a single
+> white sheet of e-paper like a printed page, unlit. Night-time; one small
+> warm reading light glowing above the bench; deep brown shadows, crisp
+> textile detail. Photorealistic, snug, silent.
 
 **Negative prompt:**
 
-> blurry, out of focus, soft focus, hazy, bright, white walls, empty room,
-> outdoor, garden, trees, sky, stone archway, terrace, landscape, people,
-> humanoid figures, robots, avatars, faces, mannequins, screens, monitors,
-> keyboards, televisions, projectors, holograms, blue LED lighting, neon,
-> sci-fi lighting, readable text, lettering, signage, logos, watermark,
-> windows, office pod, phone booth, desk, laptop
+> white walls, gray floor, bright light, daylight, spacious room, large room,
+> spa, gallery, hallway, blurry, out of focus, lettering, readable text,
+> signage, logos, watermark, people, humanoid figures, faces, robots,
+> avatars, mannequins, screens, monitors, keyboards, televisions, projectors,
+> holograms, blue LED lighting, neon, sci-fi lighting, windows, office pod,
+> desk, laptop
 
 ---
 
@@ -170,24 +170,23 @@ negative prompt below.
 
 **Main prompt:**
 
-> A long waist-high workbench whose top is a sculpted relief of ridges,
-> valleys and one distinct dent, like data woven into terrain, in a former
-> conference room on a renovated 1990s office floor, year 2035;
-> three colleagues stand around it, hands on the surface. On the end wall a
-> life-size, warm-toned live video transmission to an industrial site: a
-> technician beside a large pump under repair, gesturing toward an expert
-> in the room. Jacquard textiles and fabric data charts on the
-> side walls. Concrete ceiling, wood floor, city windows. Photorealistic,
-> workshop-like.
+> A single long waist-high table dominates a former conference room on a
+> renovated 1990s office floor, year 2035: its entire top is a sculpted
+> relief landscape of ridges and valleys with one deep dent, carved pale
+> wood glowing faint amber from within, like data woven into terrain. No
+> other furniture. On the end wall, life-size warm live footage of an
+> industrial hall with a large pump and one technician at work beside it.
+> Woven Jacquard textiles on the side walls, raw concrete ceiling, warm wood
+> floor, city buildings through tall windows. Photorealistic, workshop-like.
 
 **Negative prompt:**
 
-> single person, person looking at camera, portrait, statue, empty room,
-> renovation site, construction tools, ladder, countryside, forest, meadow,
-> conference table, robots, avatars, mannequins, deformed faces, distorted
-> hands, keyboards, laptops, holograms, blue LED lighting, neon, sci-fi
-> lighting, readable text, lettering, signage, logos, watermark, touchscreen
-> table, glass table, glowing grid, control room
+> people, humanoid figures, faces, person looking at camera, portrait,
+> statue, office desks, office chairs, corridor, drawers, filing cabinet,
+> conference table, empty room, renovation site, construction tools,
+> countryside, forest, robots, avatars, mannequins, keyboards, laptops,
+> holograms, blue LED lighting, neon, sci-fi lighting, readable text,
+> lettering, signage, logos, watermark, touchscreen table
 
 **Iteration notes:** (1) The live-transmission wall is the one sanctioned
 display in the project — it must read warm and documentary (industrial hall,
