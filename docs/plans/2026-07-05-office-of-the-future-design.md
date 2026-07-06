@@ -27,9 +27,19 @@ for desks and becomes a temple of interaction, creation, empathy, and deep focus
 
 ## Design principles
 
-- **Warm organic architecture, not literal caves.** Curved earthen/clay surfaces,
-  wood, daylight shafts, fire-toned indirect light. Cave *qualities*, credible to
-  executives.
+- **Retrofit realism (added 2026-07-06, supersedes greenfield imagery).** 2035 is
+  nine years away: the buildings in use then are the buildings standing now. Every
+  scene is a retrofitted floor or ground level of a today-standard office building
+  in an urban area — concrete structure, existing floor plates and columns, large
+  windows onto a street, a tram stop nearby. The warm materials (clay plaster,
+  wood, felt, textiles) are *finishes applied to existing structure* — which is
+  real retrofit practice — never a new earthen building in a landscape. The
+  consulting question the imagery must pose: how do these technologies and spatial
+  ideas retrofit into the buildings companies already lease? Temple-like calm,
+  right next to a tram station.
+- **Warm organic materiality, not literal caves.** Clay-plastered surfaces,
+  wood, daylight, fire-toned indirect light. Cave *qualities* — enclosure,
+  warmth, curvature where walls were reworked — credible to executives.
 - **No visible screens or gadgets.** Interactive surfaces read as painted/organic.
 - **Ambient intelligence, never embodied. No uncanny valley.** No humanoid avatars,
   robots, faces, or synthetic colleagues anywhere — in the imagery, the essay, or
@@ -50,8 +60,10 @@ Narrative arc: arrive outside → be welcomed → deeper into the office as the 
 gets deeper. Emphasis throughout on feeling welcome. May depart entirely from
 classic office aesthetics.
 
-1. **The Approach** — exterior guest commons; collaboration spaces for visitors;
-   welcome before you enter.
+1. **The Approach** — a repurposed ground-floor lobby: the former corporate
+   entrance hall with reception desk and turnstiles removed, warmed into a
+   street-level guest commons; the tram stop visible through the glazing;
+   guest collaboration before anyone goes "inside".
 2. **The Hearth** — warm arrival commons around a fire-like center; empathy and
    encounter.
 3. **The Painted Wall** — co-creation room; a large interactive organic wall where
