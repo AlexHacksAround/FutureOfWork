@@ -37,9 +37,20 @@ for desks and becomes a temple of interaction, creation, empathy, and deep focus
   consulting question the imagery must pose: how do these technologies and spatial
   ideas retrofit into the buildings companies already lease? Temple-like calm,
   right next to a tram station.
-- **Warm organic materiality, not literal caves.** Clay-plastered surfaces,
-  wood, daylight, fire-toned indirect light. Cave *qualities* — enclosure,
-  warmth, curvature where walls were reworked — credible to executives.
+- **Modern natural materials, no temple (added 2026-07-06, supersedes
+  clay/wool).** Partner direction: clay and wool read as religious/"yoga
+  temple" — out. Natural materials stay as a pattern: wood, stone, paper,
+  plants, daylight, warm neutral finishes — but the rooms are bright, modern,
+  matter-of-fact workplaces. Less dramatic, more human value.
+- **Two key technologies carry the vision (added 2026-07-06).**
+  (1) The **interactive wall** — the modern cave wall: displays information,
+  is touchable, the room listens and answers; groups lounge/stand/sit and work
+  the data on the walls together. (2) The **haptic data table** — a table
+  surface that displays data AND lets you feel it (a small deviation becomes a
+  bump under the fingertips before the eye finds it; press/zoom to open the
+  raw data). Both are explored through the lens of **generative user
+  interfaces**: LLMs as a universal, dynamic interface that renders the UI a
+  task needs, when it needs it.
 - **Work made visible (added 2026-07-06, supersedes "empty rooms").** The scenes
   show work happening: small groups of colleagues (2–4) collaborating, touching
   wall-drawn diagrams, sitting together where that fits. Walls carry charts,
