@@ -76,7 +76,7 @@
           "yaw": 0,
           "title": {
             "en": "The guest commons",
-            "de": "Der Gästehof"
+            "de": "Die Gästehalle"
           },
           "body": {
             "en": "These low wood tables and planted alcoves stand where the reception desk used to be — the terrazzo still shows the pale rectangle where it was bolted down. This is the office's first workspace, and it belongs to visitors as much as to the people upstairs. Half the ideas this company runs on were first said out loud here, over coffee, before anyone pressed an elevator button.",
@@ -137,7 +137,7 @@
           },
           "body": {
             "en": "Every culture that ever built anything gathered around fire, and no lobby fountain has replaced it. This one is a sealed ember hearth, flued up through one of the building's old service shafts — real warmth, slow moving light, and not a single fire alarm bothered. People drift toward it without being asked. It is the office's one non-negotiable meeting point — no agenda, no booking, no seat at the head.",
-            "de": "Jede Kultur, die je etwas hervorgebracht hat, versammelte sich ums Feuer — und kein Springbrunnen in einer Lobby hat es je ersetzt. Diese Glut brennt in einer geschlossenen Feuerstelle, entlüftet über einen alten Versorgungsschacht des Gebäudes — echte Wärme, langsames, bewegtes Licht, und kein einziger Rauchmelder regt sich. Menschen finden sich hier ein, ohne gerufen zu werden. Es ist der einzige unverhandelbare Treffpunkt des Büros — ohne Agenda, ohne Buchung, ohne Platz am Kopfende."
+            "de": "Jede Kultur, die je etwas hervorgebracht hat, versammelte sich ums Feuer — und kein Springbrunnen in einer Lobby hat es je ersetzt. Diese Glut brennt in einer geschlossenen Feuerstelle, ihr Abzug führt durch einen alten Versorgungsschacht des Gebäudes — echte Wärme, langsames, bewegtes Licht, und kein einziger Rauchmelder regt sich. Menschen finden sich hier ein, ohne gerufen zu werden. Es ist der einzige unverhandelbare Treffpunkt des Büros — ohne Agenda, ohne Buchung, ohne Platz am Kopfende."
           }
         },
         {
@@ -262,7 +262,7 @@
         "de": "Die Klause"
       },
       "narration": {
-        "en": "You duck through a low opening into a niche of felt and wood, built into the floor between two of the building's concrete columns — dark, soft, warm, barely wider than your outstretched arms. A lambswool bench, a curved wall at your back, and a quiet so complete you can hear yourself think. That is the point: in 2035, the office's most precious square meters are the ones that hold exactly one person.",
+        "en": "You duck through a low opening into a niche of felt and wood, built between two of the building's concrete columns — dark, soft, warm, barely wider than your outstretched arms. A lambswool bench, a curved wall at your back, and a quiet so complete you can hear yourself think. That is the point: in 2035, the office's most precious square meters are the ones that hold exactly one person.",
         "de": "Sie ducken sich durch eine niedrige Öffnung in eine Nische aus Filz und Holz, eingebaut zwischen zwei Betonstützen des Hauses — dunkel, weich, warm, kaum breiter als Ihre ausgestreckten Arme. Eine Bank mit Lammwolle, eine gewölbte Wand im Rücken und eine Stille, so vollkommen, dass Sie sich selbst denken hören. Genau das ist der Zweck: 2035 sind die kostbarsten Quadratmeter des Büros die, die genau einem Menschen gehören."
       },
       "hotspots": [
@@ -274,8 +274,8 @@
             "de": "Die Form der Geborgenheit"
           },
           "body": {
-            "en": "The curve at your back is doing something ancient: a person whose back is covered thinks differently — slower pulse, longer attention, steadier judgment. The Den is dim because focus is nocturnal, and small because thought needs walls to press against. This is not a booth parked in an open plan; it is carpentry built into the building's own structure — architecture admitting what bodies have always needed.",
-            "de": "Die Wölbung in Ihrem Rücken tut etwas Uraltes: Ein Mensch mit gedecktem Rücken denkt anders — langsamerer Puls, längere Aufmerksamkeit, ruhigeres Urteil. Die Klause ist dunkel, weil Konzentration ein Nachttier ist, und klein, weil Gedanken Wände brauchen, an die sie sich lehnen können. Das ist keine Kabine, die man in eine offene Fläche gestellt hat — das ist Schreinerarbeit im Tragwerk des Hauses: Architektur, die zugibt, was Körper immer gebraucht haben."
+            "en": "The curve at your back is doing something ancient: a person whose back is covered thinks differently — slower pulse, longer attention, steadier judgment. The Den is dim because focus is nocturnal, and small because thought needs walls to press against. This is not a booth parked in an open plan; it is carpentry fitted between the building's own columns — architecture admitting what bodies have always needed.",
+            "de": "Die Wölbung in Ihrem Rücken tut etwas Uraltes: Ein Mensch mit gedecktem Rücken denkt anders — langsamerer Puls, längere Aufmerksamkeit, ruhigeres Urteil. Die Klause ist dunkel, weil Konzentration ein Nachttier ist, und klein, weil Gedanken Wände brauchen, an die sie sich lehnen können. Das ist keine Kabine, die man in eine offene Fläche gestellt hat — das ist Schreinerarbeit zwischen den Stützen des Hauses: Architektur, die zugibt, was Körper immer gebraucht haben."
           }
         },
         {
