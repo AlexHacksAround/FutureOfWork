@@ -170,23 +170,23 @@ negative prompt below.
 
 **Main prompt:**
 
-> A single long waist-high table dominates a former conference room on a
-> renovated 1990s office floor, year 2035: its entire top is a sculpted
-> relief landscape of ridges and valleys with one deep dent, carved pale
-> wood glowing faint amber from within, like data woven into terrain. No
-> other furniture. On the end wall, life-size warm live footage of an
-> industrial hall with a large pump and one technician at work beside it.
-> Woven Jacquard textiles on the side walls, raw concrete ceiling, warm wood
-> floor, city buildings through tall windows. Photorealistic, workshop-like.
+> In the middle of a former conference room on a renovated 1990s office
+> floor, year 2035, stands a heavy oak workbench the size of a dining table:
+> on its top a carved wooden topographic relief model of hills and valleys
+> with one deep dent, soft amber light glowing between the ridges. The room
+> is intimate, not large. Woven Jacquard textiles hang on the clay-plastered
+> side walls; on the end wall, warm life-size live footage of an industrial
+> hall with a large pump and one technician beside it. Raw concrete ceiling,
+> warm wood floor, city through tall windows. Photorealistic, workshop-like.
 
 **Negative prompt:**
 
-> people, humanoid figures, faces, person looking at camera, portrait,
-> statue, office desks, office chairs, corridor, drawers, filing cabinet,
-> conference table, empty room, renovation site, construction tools,
-> countryside, forest, robots, avatars, mannequins, keyboards, laptops,
-> holograms, blue LED lighting, neon, sci-fi lighting, readable text,
-> lettering, signage, logos, watermark, touchscreen table
+> warehouse, industrial hall interior, giant sculpture, art installation,
+> dunes, fabric landscape, empty room, people, humanoid figures, faces,
+> person looking at camera, statue, office desks, office chairs, corridor,
+> conference table, construction tools, robots, avatars, mannequins,
+> keyboards, laptops, holograms, blue LED lighting, neon, sci-fi lighting,
+> readable text, lettering, signage, logos, watermark, touchscreen table
 
 **Iteration notes:** (1) The live-transmission wall is the one sanctioned
 display in the project — it must read warm and documentary (industrial hall,
