@@ -163,8 +163,8 @@ blue screen.
 > the size of a billiard table: its matte dark-bronze surface is a physical
 > topographic relief of gentle ridges and valleys, like a landscape model
 > carved from wood and metal, with one small distinct bump, lit softly from
-> within by warm amber contour lines, paper-matte, no glare. Chairs pushed
-> back as if a team just stepped out. Renovated concrete ceiling, light wood
+> within by warm amber contour lines, paper-matte, no glare. Chairs pushed back.
+> Renovated concrete ceiling, light wood
 > floor, tall windows with city buildings outside, bright daylight.
 > Photorealistic, precise, modern.
 
