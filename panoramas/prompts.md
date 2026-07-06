@@ -105,12 +105,11 @@ negative prompt below.
 
 **Negative prompt:**
 
-> cottage, farmhouse, wooden beam ceiling, cabin, fireplace, framed pictures,
-> house, robots, avatars, mannequins, deformed faces, distorted hands, extra
+> fireplace, chimney, stove, flue, statue, sculpture, figurine, single person,
+> person looking at camera, cottage, farmhouse, framed pictures, robots, avatars, mannequins, deformed faces, extra
 > fingers, screens, monitors, keyboards, televisions, projectors, holograms,
 > blue LED lighting, neon, sci-fi lighting, readable text, lettering, signage,
-> logos, watermark, sterile corporate interior, office cubicles, chandelier,
-> smoke, crowd
+> logos, watermark, sterile corporate interior
 
 ---
 
@@ -120,23 +119,22 @@ negative prompt below.
 
 **Main prompt:**
 
-> A long flat hand-troweled clay wall in a renovated 1990s office floor, year
-> 2035, covered in work: hand-drawn ochre and umber diagrams, flow charts,
-> data curves and product sketches in matte mineral pigment, and one large 3D
-> exploded-view engineering drawing of an industrial pump. Three colleagues
-> stand at the wall, fingertips on the drawings, mid-discussion, seen from
-> behind. Older faded layers beneath the newest marks. Daylight from tall
-> windows rakes across the wall; raw concrete ceiling, warm wood floor, low
-> stools. Photorealistic, focused, tactile.
+> A spacious co-creation room on a renovated 1990s office floor, year 2035,
+> seen from its center, several meters back from a long flat hand-troweled
+> clay wall covered in work: hand-drawn ochre and umber diagrams, flow
+> charts, product sketches in matte mineral pigment, and one large 3D
+> exploded-view engineering drawing of an industrial pump. A few people stand
+> at the wall, seen from behind, fingertips on the drawings. Daylight from
+> tall windows rakes across the wall; raw concrete ceiling, warm wood floor,
+> low stools. Photorealistic, focused, tactile.
 
 **Negative prompt:**
 
-> sand dune, cave, rock formation, melted shapes, skylight, blank wall,
-> glowing wall, digital display, whiteboard, sticky notes, robots, avatars,
-> mannequins, deformed faces, distorted hands, extra fingers, screens,
+> close-up, cramped corridor, hallway, cave, melted shapes, skylight, blank wall, glowing wall, digital display,
+> whiteboard, statue, sculpture, single person, person looking at camera,
+> robots, avatars, mannequins, deformed faces, distorted hands, screens,
 > monitors, keyboards, televisions, projectors, holograms, blue LED lighting,
-> neon, sci-fi lighting, readable text, lettering, signage, logos, watermark,
-> glass partitions
+> neon, sci-fi lighting, readable text, lettering, signage, logos, watermark
 
 ---
 
@@ -146,23 +144,23 @@ negative prompt below.
 
 **Main prompt:**
 
-> Dark, tiny felt-lined interior alcove at night-dim warmth inside a renovated
-> 1990s office floor, year 2035, from seated eye height inside the niche,
-> barely wider than outstretched arms. Soft felt walls wrap behind a low
-> wooden bench draped in thick lambswool; a heavy felt curtain half-drawn
-> across the low opening; raw concrete column faces at the niche edges. On
-> the bench a single matte sheet of e-paper, pale as a printed page, unlit.
-> One pool of candle-warm light from a hidden source above, deep soft shadows
-> all around. Photorealistic, enclosed, profoundly quiet.
+> Tiny reading alcove lined floor-to-ceiling in dark charcoal-brown wool felt
+> panels, inside a renovated 1990s office floor, year 2035, from seated eye
+> height, barely wider than outstretched arms. A low bench of dark oiled oak
+> draped with a thick cream lambswool fleece; a heavy dark felt curtain
+> half-drawn across the low opening; raw concrete visible at the edges. On
+> the bench one matte white sheet of e-paper, unlit, like a printed page.
+> Dim moody lighting, one warm reading lamp glow from above, sharp focus,
+> crisp fabric texture. Photorealistic, enclosed, quiet.
 
 **Negative prompt:**
 
-> outdoor, garden, trees, sky, stone archway, arch, terrace, courtyard,
-> landscape, people, humanoid figures, robots, avatars, faces, mannequins,
-> screens, monitors, keyboards, televisions, projectors, holograms, blue LED
-> lighting, neon, sci-fi lighting, readable text, lettering, signage, logos,
-> watermark, bright light, windows, office pod, phone booth, desk, laptop,
-> spacious room
+> blurry, out of focus, soft focus, hazy, bright, white walls, empty room,
+> outdoor, garden, trees, sky, stone archway, terrace, landscape, people,
+> humanoid figures, robots, avatars, faces, mannequins, screens, monitors,
+> keyboards, televisions, projectors, holograms, blue LED lighting, neon,
+> sci-fi lighting, readable text, lettering, signage, logos, watermark,
+> windows, office pod, phone booth, desk, laptop
 
 ---
 
@@ -184,11 +182,12 @@ negative prompt below.
 
 **Negative prompt:**
 
-> empty room, countryside, forest, meadow, conference table, robots, avatars,
-> mannequins, deformed faces, distorted hands, extra fingers, keyboards,
-> laptops, holograms, blue LED lighting, neon, sci-fi lighting, readable text,
-> lettering, signage, logos, watermark, touchscreen table, glass table,
-> glowing grid, control room, crowd
+> single person, person looking at camera, portrait, statue, empty room,
+> renovation site, construction tools, ladder, countryside, forest, meadow,
+> conference table, robots, avatars, mannequins, deformed faces, distorted
+> hands, keyboards, laptops, holograms, blue LED lighting, neon, sci-fi
+> lighting, readable text, lettering, signage, logos, watermark, touchscreen
+> table, glass table, glowing grid, control room
 
 **Iteration notes:** (1) The live-transmission wall is the one sanctioned
 display in the project — it must read warm and documentary (industrial hall,
