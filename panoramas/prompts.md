@@ -173,12 +173,12 @@ negative prompt below.
 **Main prompt:**
 
 > A long waist-high workbench whose top is a sculpted relief of ridges,
-> valleys and one distinct dent, like data woven into terrain, at the center
-> of a former conference room on a renovated 1990s office floor, year 2035;
+> valleys and one distinct dent, like data woven into terrain, in a former
+> conference room on a renovated 1990s office floor, year 2035;
 > three colleagues stand around it, hands on the surface. On the end wall a
 > life-size, warm-toned live video transmission to an industrial site: a
 > technician beside a large pump under repair, gesturing toward an expert
-> standing in the room. Woven Jacquard textiles and fabric data charts on the
+> in the room. Jacquard textiles and fabric data charts on the
 > side walls. Concrete ceiling, wood floor, city windows. Photorealistic,
 > workshop-like.
 
