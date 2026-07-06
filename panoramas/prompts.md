@@ -158,15 +158,15 @@ blue screen.
 
 **Main prompt:**
 
-> Standing directly at the edge of a large waist-high data table that fills
-> the foreground, in a bright former conference room of a renovated 1990s
-> office building, year 2035. The tabletop stretches away from the camera:
-> a matte dark-bronze surface sculpted as a physical topographic relief of
-> gentle ridges and valleys, like a precise landscape model of wood and
-> metal, one small distinct bump, soft warm amber contour lines glowing
-> between the ridges, no glare. Light wood floor, renovated concrete
-> ceiling, tall windows with city buildings, bright daylight.
-> Photorealistic, precise, modern.
+> A large museum-style topographic relief map table stands at the center of
+> a bright renovated office room in a 1990s concrete building, year 2035,
+> seen from standing eye height beside it. The exhibit table is waist-high,
+> wide, with a detailed miniature terrain model of ridges and valleys in
+> dark bronze and wood tones, one small distinct bump near its edge, thin
+> warm amber contour lines lighting the valleys softly, matte, no glare.
+> Around it: light wood floor, renovated concrete ceiling, tall windows
+> with city buildings outside, bright daylight. Photorealistic, precise,
+> modern.
 
 **Negative prompt:**
 
