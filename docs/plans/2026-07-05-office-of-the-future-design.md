@@ -40,6 +40,17 @@ for desks and becomes a temple of interaction, creation, empathy, and deep focus
 - **Warm organic materiality, not literal caves.** Clay-plastered surfaces,
   wood, daylight, fire-toned indirect light. Cave *qualities* — enclosure,
   warmth, curvature where walls were reworked — credible to executives.
+- **Work made visible (added 2026-07-06, supersedes "empty rooms").** The scenes
+  show work happening: small groups of colleagues (2–4) collaborating, touching
+  wall-drawn diagrams, sitting together where that fits. Walls carry charts,
+  data and product visuals, including a large 3D engineering drawing of a new
+  pump under development (Painted Wall) and a life-size, warm-toned live
+  transmission to an industrial site where that pump is under repair — a
+  technician on site interacting with an expert in the room (Loom). Wall content
+  reads as drawn into / woven into the surface, never a glowing blue rectangle.
+  People are always human colleagues — never robots, avatars, or synthetic
+  figures; faces incidental, natural proportions, mostly at conversational
+  distance. The Den stays empty: the visitor is its occupant.
 - **No visible screens or gadgets.** Interactive surfaces read as painted/organic.
 - **Ambient intelligence, never embodied. No uncanny valley.** No humanoid avatars,
   robots, faces, or synthetic colleagues anywhere — in the imagery, the essay, or

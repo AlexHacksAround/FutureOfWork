@@ -2,10 +2,11 @@
 
 Prompts for generating the five 360° scenes in [Blockade Labs Skybox AI](https://skybox.blockadelabs.com/).
 Every scene is a retrofitted floor or ground level of a real, standing urban
-office building — never a new earthen building in a landscape. Each scene below
-has a recommended style preset, a main prompt, and a negative prompt. Generate,
-review against the design principles, iterate, then integrate (workflow at the
-bottom).
+office building — never a new earthen building in a landscape — and the scenes
+show **work happening**: people collaborating, walls carrying diagrams and
+product visuals. Each scene below has a recommended style preset, a main
+prompt, and a negative prompt. Generate, review against the design principles,
+iterate, then integrate (workflow at the bottom).
 
 > **Length rule:** main prompts must stay under ~600 characters (Skybox AI's
 > input limit); negative prompts are ordered most-critical-first so truncation
@@ -33,22 +34,31 @@ check the result against them before accepting it:
   the outside is the city: other buildings, a street, tram infrastructure.
   Interior light is warm (ochre, umber, amber, sand). Never blue, never neon,
   never sci-fi glow.
-- **Technology is invisible.** Interactive surfaces read as painted clay,
-  fabric, or paper. No visible screens, monitors, keyboards, projectors,
-  cables, or gadgets anywhere — the Den's single unlit e-paper sheet is the
-  only exception, and it must read as a printed page.
-- **Nobody home.** The rooms are empty of people — the visitor is the only
-  person present. No humanoid figures of any kind, ever.
+- **Work made visible.** Walls carry the work: hand-drawn diagrams, flow
+  charts, data curves, product sketches — including a large 3D engineering
+  drawing of a pump under development (Painted Wall) and a life-size live
+  transmission to an industrial site (Loom). All wall content reads as drawn
+  into or woven into the surface — matte, warm-toned — never a glowing blue
+  rectangle. No freestanding monitors, laptops, or keyboards anywhere; the
+  Den's single unlit e-paper sheet must read as a printed page.
+- **People at work, rendered with care.** Small groups (2–4) of human
+  colleagues: standing at walls with fingertips on the drawings, sitting
+  together around the fire, gathered at the workbench. Natural proportions,
+  everyday clothing, faces incidental — mostly seen from the side, from
+  behind, or at conversational distance (this also avoids AI face artifacts).
+  Never robots, avatars, mannequins, or synthetic figures. **The Den stays
+  empty** — its occupant is the visitor.
 - **Camera:** standing eye height (~160 cm) unless a scene says otherwise,
   roughly the center of the space, level horizon.
 
 **Always exclude (append to every negative prompt, non-negotiable):**
-people, humanoid figures, robots, avatars, faces, mannequins, statues of
-people, screens, monitors, keyboards, televisions, projectors, holograms,
-blue LED lighting, neon, sci-fi lighting, text, writing, signage, logos,
-watermark — plus, per scene, the sterile-office terms listed with each
-negative prompt below (the Approach *is* a former corporate lobby, so it
-excludes lobby furniture, not the lobby itself).
+robots, avatars, mannequins, statues of people, deformed faces, distorted
+hands, extra fingers, holograms, blue LED lighting, neon, sci-fi lighting,
+readable text, lettering, signage, logos, watermark — plus, per scene, the
+display exclusions (screens, monitors, keyboards, televisions, projectors)
+*except* where a scene's brief explicitly includes a display surface (the
+Loom's live-transmission wall), and the sterile-office terms listed with each
+negative prompt below.
 
 ---
 
@@ -58,15 +68,23 @@ excludes lobby furniture, not the lobby itself).
 
 **Main prompt:**
 
-> Renovated ground-floor lobby of a 1990s concrete-and-glass office building, year 2035, from standing eye height. Reception desk and turnstiles removed; a pale rectangle of bolt marks in the terrazzo floor where the desk stood. Concrete columns warmed with clay plaster and wood cladding, low round wood guest tables with cushions, planted alcoves. The original floor-to-ceiling glazing opens onto a city street with a tram stop, tram wires overhead, buildings across the road. Soft morning daylight through the glass, warm amber light inside. Photorealistic, welcoming.
+> Renovated ground-floor lobby of a 1990s concrete-and-glass office building,
+> year 2035, from standing eye height. Reception desk and turnstiles removed;
+> pale bolt marks in the terrazzo floor where the desk stood. Concrete columns
+> warmed with clay plaster and wood, low round guest tables, planted alcoves;
+> two small groups of visitors in relaxed conversation at the tables, seen at
+> a distance. The floor-to-ceiling glazing opens onto a city street with a
+> tram stop and buildings across the road. Soft morning daylight, warm amber
+> light inside. Photorealistic, welcoming.
 
 **Negative prompt:**
 
-> people, humanoid figures, robots, avatars, faces, mannequins, statues of
-> people, screens, monitors, keyboards, televisions, projectors, holograms,
-> blue LED lighting, neon, sci-fi lighting, cold sterile lobby, reception
-> desk, turnstiles, security gates, office cubicles, text, writing, signage,
-> logos, watermark, badge readers, security cameras, revolving door
+> robots, avatars, mannequins, statues of people, deformed faces, distorted
+> hands, extra fingers, screens, monitors, keyboards, televisions, projectors,
+> holograms, blue LED lighting, neon, sci-fi lighting, cold sterile lobby,
+> reception desk, turnstiles, security gates, office cubicles, readable text,
+> lettering, signage, logos, watermark, badge readers, security cameras,
+> revolving door, crowd
 
 ---
 
@@ -76,15 +94,23 @@ excludes lobby furniture, not the lobby itself).
 
 **Main prompt:**
 
-> Renovated open upper floor of a 1990s concrete office building, year 2035, from standing eye height. Raw concrete ceiling softened with clay plaster and felt acoustic baffles. At the center a sealed ember hearth: glowing embers in a shallow clay basin, no fence, no fountain. Clay-plastered walls, warm wood floor, wool rugs, low cushioned benches facing the fire. To one side a kitchen alcove with wooden counter, fresh bread, ceramic cups, a copper kettle. Tall windows with sheer wool curtains show the city outside. Firelight and soft daylight. Photorealistic, intimate.
+> At the center of a wide renovated 1990s office floor, a shallow round clay
+> basin of glowing embers, year 2035, from standing eye height; four
+> colleagues sit together on low cushioned benches around the fire, coffee
+> cups in hand, in easy conversation. High raw concrete ceiling softened with
+> felt acoustic baffles, clay-plastered columns, tall windows with sheer wool
+> curtains, city buildings outside. Warm wood floor, wool rugs; to one side a
+> kitchen alcove with wooden counter, bread, ceramic cups, a copper kettle.
+> Firelight and soft daylight. Photorealistic, intimate.
 
 **Negative prompt:**
 
-> people, humanoid figures, robots, avatars, faces, mannequins, statues of
-> people, screens, monitors, keyboards, televisions, projectors, holograms,
-> blue LED lighting, neon, sci-fi lighting, sterile corporate interior,
-> office cubicles, text, writing, signage, logos, watermark, reception desk,
-> counter service, fireplace mantel, chandelier, smoke, cold lighting
+> cottage, farmhouse, wooden beam ceiling, cabin, fireplace, framed pictures,
+> house, robots, avatars, mannequins, deformed faces, distorted hands, extra
+> fingers, screens, monitors, keyboards, televisions, projectors, holograms,
+> blue LED lighting, neon, sci-fi lighting, readable text, lettering, signage,
+> logos, watermark, sterile corporate interior, office cubicles, chandelier,
+> smoke, crowd
 
 ---
 
@@ -94,60 +120,83 @@ excludes lobby furniture, not the lobby itself).
 
 **Main prompt:**
 
-> Co-creation room on a renovated floor of a 1990s concrete office building, year 2035, from standing eye height. One long clay-plastered wall running where glass meeting boxes once stood, covered in matte ochre and umber mineral-pigment sketch strokes, hand-drawn lines, faint older layers showing through beneath the newest marks. No glow, no glass. Daylight from the building's own tall windows rakes across the wall, revealing hand-troweled texture; a concrete column at each end. Warm wood floor, low wooden stools, clay pots of pigment on a ledge. Photorealistic, tactile.
+> A long flat hand-troweled clay wall in a renovated 1990s office floor, year
+> 2035, covered in work: hand-drawn ochre and umber diagrams, flow charts,
+> data curves and product sketches in matte mineral pigment, and one large 3D
+> exploded-view engineering drawing of an industrial pump. Three colleagues
+> stand at the wall, fingertips on the drawings, mid-discussion, seen from
+> behind. Older faded layers beneath the newest marks. Daylight from tall
+> windows rakes across the wall; raw concrete ceiling, warm wood floor, low
+> stools. Photorealistic, focused, tactile.
 
 **Negative prompt:**
 
-> people, humanoid figures, robots, avatars, faces, mannequins, statues of
-> people, screens, monitors, keyboards, televisions, projectors, holograms,
-> blue LED lighting, neon, sci-fi lighting, sterile corporate interior,
-> office cubicles, text, writing, signage, logos, watermark, whiteboard,
-> sticky notes, markers, glowing wall, digital display, readable letters,
-> glass partitions, recognizable animals
+> sand dune, cave, rock formation, melted shapes, skylight, blank wall,
+> glowing wall, digital display, whiteboard, sticky notes, robots, avatars,
+> mannequins, deformed faces, distorted hands, extra fingers, screens,
+> monitors, keyboards, televisions, projectors, holograms, blue LED lighting,
+> neon, sci-fi lighting, readable text, lettering, signage, logos, watermark,
+> glass partitions
 
 ---
 
 ## 4. The Den
 
-**Style preset:** Interior Views — or Advanced (no preset). Keep it dark; reject any bright generation. Iteration note: this tiny close-range volume is the hardest equirectangular brief — reject warped or impossible niche geometry and re-roll.
+**Style preset:** Interior Views — or Advanced (no preset). Keep it dark; reject any bright generation. Iteration note: this tiny close-range volume is the hardest equirectangular brief — reject warped or impossible niche geometry and re-roll. The Den stays empty of people: its occupant is the visitor.
 
 **Main prompt:**
 
-> Tiny felt-and-wood alcove fitted between two raw concrete columns on a renovated 1990s office floor, year 2035, from seated eye height inside the niche, barely wider than outstretched arms. A curved felt-lined wall wraps behind a low wooden bench draped in thick lambswool; a heavy felt curtain half-drawn across the low opening; concrete column faces visible at the niche edges. On the bench a single matte sheet of e-paper, pale as a printed page, unlit. One pool of candle-warm light from a hidden source above, deep soft shadows. Photorealistic, enclosed, profoundly quiet.
+> Dark, tiny felt-lined interior alcove at night-dim warmth inside a renovated
+> 1990s office floor, year 2035, from seated eye height inside the niche,
+> barely wider than outstretched arms. Soft felt walls wrap behind a low
+> wooden bench draped in thick lambswool; a heavy felt curtain half-drawn
+> across the low opening; raw concrete column faces at the niche edges. On
+> the bench a single matte sheet of e-paper, pale as a printed page, unlit.
+> One pool of candle-warm light from a hidden source above, deep soft shadows
+> all around. Photorealistic, enclosed, profoundly quiet.
 
 **Negative prompt:**
 
-> people, humanoid figures, robots, avatars, faces, mannequins, statues of
-> people, screens, monitors, keyboards, televisions, projectors, holograms,
-> blue LED lighting, neon, sci-fi lighting, sterile corporate interior,
-> office cubicles, text, writing, signage, logos, watermark, office pod,
-> phone booth, desk, office chair, laptop, tablet, bright light, windows,
+> outdoor, garden, trees, sky, stone archway, arch, terrace, courtyard,
+> landscape, people, humanoid figures, robots, avatars, faces, mannequins,
+> screens, monitors, keyboards, televisions, projectors, holograms, blue LED
+> lighting, neon, sci-fi lighting, readable text, lettering, signage, logos,
+> watermark, bright light, windows, office pod, phone booth, desk, laptop,
 > spacious room
 
 ---
 
 ## 5. The Loom
 
-**Style preset:** Interior Views — or Advanced (no preset). This is the centerpiece; iterate until the surface reads as a physical relief, not a screen.
+**Style preset:** Interior Views — or Advanced (no preset). This is the centerpiece; iterate until the relief surface reads as physical, not rendered, and the live-transmission wall reads as warm documentary footage — a window to a real industrial site — never a blue screen.
 
 **Main prompt:**
 
-> Former main conference room of a 1990s concrete office building, renovated, year 2035, from standing eye height beside a long waist-high workbench whose top is a living relief: ridges, valleys, and one distinct dent, sculpted from thousands of matte cells, as if data had been woven into terrain. Lit faintly from within by warm amber gradients, like embers under cloth, never glowing like a screen. Clay-plastered walls hung with large woven Jacquard textiles. Raw concrete ceiling, warm wood floor, a tall curtained window, low fire-toned light. Photorealistic, workshop-like.
+> A long waist-high workbench whose top is a sculpted relief of ridges,
+> valleys and one distinct dent, like data woven into terrain, at the center
+> of a former conference room on a renovated 1990s office floor, year 2035;
+> three colleagues stand around it, hands on the surface. On the end wall a
+> life-size, warm-toned live video transmission to an industrial site: a
+> technician beside a large pump under repair, gesturing toward an expert
+> standing in the room. Woven Jacquard textiles and fabric data charts on the
+> side walls. Concrete ceiling, wood floor, city windows. Photorealistic,
+> workshop-like.
 
 **Negative prompt:**
 
-> people, humanoid figures, robots, avatars, faces, mannequins, statues of
-> people, screens, monitors, keyboards, televisions, projectors, holograms,
-> blue LED lighting, neon, sci-fi lighting, sterile corporate interior,
-> office cubicles, text, writing, signage, logos, watermark, conference
-> table, projection screen, touchscreen table, glass table, charts, graphs,
-> numbers, glowing grid, control room
+> empty room, countryside, forest, meadow, conference table, robots, avatars,
+> mannequins, deformed faces, distorted hands, extra fingers, keyboards,
+> laptops, holograms, blue LED lighting, neon, sci-fi lighting, readable text,
+> lettering, signage, logos, watermark, touchscreen table, glass table,
+> glowing grid, control room, crowd
 
-**Iteration note:** the site copy mentions the old projector's mounting plate
-still marking the ceiling. If a small bare metal plate happens to appear on
-the concrete ceiling, keep it — it is on-message. Do not fight for it in the
-prompt (asking for it tends to summon a whole projector, which the negative
-prompt rightly forbids).
+**Iteration notes:** (1) The live-transmission wall is the one sanctioned
+display in the project — it must read warm and documentary (industrial hall,
+the pump, one technician), never a glowing blue rectangle; re-roll if it
+generates as a TV or monitor with bezels. (2) The site copy mentions the old
+projector's mounting plate still marking the ceiling. If a small bare metal
+plate happens to appear on the concrete ceiling, keep it — it is on-message.
+Do not fight for it in the prompt.
 
 ---
 
@@ -156,10 +205,11 @@ prompt rightly forbids).
 1. **Generate** the scene in Skybox AI with the prompt and negative prompt
    above, at the highest resolution your plan allows. Compare against the
    shared visual language; iterate the prompt until it passes (especially:
-   no people, no screens, no blue light, and the space reads as a renovated
-   floor of a real building — concrete structure visible, warm finishes).
+   people look natural and human, wall content reads as drawn or woven — not
+   glowing, no blue light, and the space reads as a renovated floor of a real
+   building — concrete structure visible, warm finishes).
    Generation can also run via `tools/make_skyboxes.py` (the automated path
-   through the Skybox AI API; script arrives with the next task).
+   through the Skybox AI API).
 2. **Download** the equirectangular JPG (not the cube map, not the video).
 3. **Replace** the placeholder: save the file as `site/panos/<id>.jpg`
    (`approach`, `hearth`, `painted-wall`, `den`, `loom`) — same filename,
