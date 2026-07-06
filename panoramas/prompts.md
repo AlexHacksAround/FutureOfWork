@@ -69,13 +69,13 @@ negative prompt below.
 **Main prompt:**
 
 > Renovated ground-floor lobby of a 1990s concrete-and-glass office building,
-> year 2035, from standing eye height. Reception desk and turnstiles removed;
-> pale bolt marks in the terrazzo floor where the desk stood. Concrete columns
-> warmed with clay plaster and wood, low round guest tables, planted alcoves;
-> two small groups of visitors in relaxed conversation at the tables, seen at
-> a distance. The floor-to-ceiling glazing opens onto a city street with a
-> tram stop and buildings across the road. Soft morning daylight, warm amber
-> light inside. Photorealistic, welcoming.
+> year 2035, from standing eye height. One long clay-plastered wall carries a
+> huge hand-drawn mural of diagrams, sketches and timelines; two visitors
+> stand at it, tracing the lines with their fingers, seen from behind.
+> Reception desk and turnstiles removed, pale bolt marks in the terrazzo
+> floor. Concrete columns warmed with wood, low round guest tables, planted
+> alcoves. Floor-to-ceiling glazing onto a city street with a tram stop.
+> Soft morning daylight, warm amber light. Photorealistic, welcoming.
 
 **Negative prompt:**
 
@@ -94,14 +94,14 @@ negative prompt below.
 
 **Main prompt:**
 
-> At the center of a wide renovated 1990s office floor, a shallow round clay
-> basin of glowing embers, year 2035, from standing eye height; four
-> colleagues sit together on low cushioned benches around the fire, coffee
-> cups in hand, in easy conversation. High raw concrete ceiling softened with
-> felt acoustic baffles, clay-plastered columns, tall windows with sheer wool
-> curtains, city buildings outside. Warm wood floor, wool rugs; to one side a
-> kitchen alcove with wooden counter, bread, ceramic cups, a copper kettle.
-> Firelight and soft daylight. Photorealistic, intimate.
+> Wide renovated 1990s office floor, year 2035, from standing eye height. At
+> its center an open round fire pit flush with the floor, glowing embers, no
+> chimney; several people seated on low cushioned benches around it, seen
+> from behind at a distance. On the curved clay wall behind them a large
+> woven tapestry with soft abstract patterns of lines and curves. High raw
+> concrete ceiling with felt baffles, tall windows with sheer wool curtains,
+> city outside. Warm wood floor, wool rugs, kitchen alcove with copper
+> kettle. Firelight and soft daylight. Photorealistic, intimate.
 
 **Negative prompt:**
 
@@ -119,14 +119,14 @@ negative prompt below.
 
 **Main prompt:**
 
-> A spacious co-creation room on a renovated 1990s office floor, year 2035,
-> seen from its center, several meters back from a long flat hand-troweled
-> clay wall covered in work: hand-drawn ochre and umber diagrams, flow
-> charts, product sketches in matte mineral pigment, and one large 3D
-> exploded-view engineering drawing of an industrial pump. A few people stand
-> at the wall, seen from behind, fingertips on the drawings. Daylight from
-> tall windows rakes across the wall; raw concrete ceiling, warm wood floor,
-> low stools. Photorealistic, focused, tactile.
+> Several people stand at a long flat hand-troweled clay wall, fingertips on
+> its drawings, seen from behind, mid-discussion, in a spacious co-creation
+> room on a renovated 1990s office floor, year 2035. The wall is covered in
+> work: hand-drawn ochre and umber diagrams, flow charts, product sketches
+> in matte mineral pigment, and one large 3D exploded-view engineering
+> drawing of an industrial pump. Daylight from tall windows rakes across the
+> wall; raw concrete ceiling, warm wood floor, low stools. Photorealistic,
+> focused, tactile.
 
 **Negative prompt:**
 
@@ -170,23 +170,22 @@ negative prompt below.
 
 **Main prompt:**
 
-> In the middle of a former conference room on a renovated 1990s office
-> floor, year 2035, stands a heavy oak workbench the size of a dining table:
-> on its top a carved wooden topographic relief model of hills and valleys
-> with one deep dent, soft amber light glowing between the ridges. The room
-> is intimate, not large. Woven Jacquard textiles hang on the clay-plastered
-> side walls; on the end wall, warm life-size live footage of an industrial
-> hall with a large pump and one technician beside it. Raw concrete ceiling,
-> warm wood floor, city through tall windows. Photorealistic, workshop-like.
+> A former conference room on a renovated 1990s office floor, year 2035,
+> transformed into a walkable data-landscape: room-scale ridges and valleys
+> of tightly woven amber and rust textile rise from the floor like a relief
+> map, with one deep dent; a few people walk between the woven hills,
+> touching the ridges, seen from behind. On the end wall, warm life-size
+> live footage of an industrial hall with a large pump and one technician
+> beside it. Raw concrete ceiling and columns, city buildings through tall
+> windows. Photorealistic, workshop-like.
 
 **Negative prompt:**
 
-> warehouse, industrial hall interior, giant sculpture, art installation,
-> dunes, fabric landscape, empty room, people, humanoid figures, faces,
-> person looking at camera, statue, office desks, office chairs, corridor,
-> conference table, construction tools, robots, avatars, mannequins,
-> keyboards, laptops, holograms, blue LED lighting, neon, sci-fi lighting,
-> readable text, lettering, signage, logos, watermark, touchscreen table
+> empty room, plain room, office desks, office chairs, benches, corridor,
+> conference table, person looking at camera, portrait, statue, robots,
+> avatars, mannequins, deformed faces, distorted hands, keyboards, laptops,
+> holograms, blue LED lighting, neon, sci-fi lighting, readable text,
+> lettering, signage, logos, watermark, mountains, countryside, forest
 
 **Iteration notes:** (1) The live-transmission wall is the one sanctioned
 display in the project — it must read warm and documentary (industrial hall,
